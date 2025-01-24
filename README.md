@@ -174,6 +174,7 @@ These are mostly applications that have been in the KDE application catalog for 
      - `kdegraphics-mobipocket`<sup>(optional)</sup> - mobi support
      - `unarchiver` **or** `unrar`<sup>(optional)</sup> - Comic Book support
 - [`subtitlecomposer`](https://apps.kde.org/subtitlecomposer) - subtitle editor
+- [`keepassxc`](https://keepassxc.org/) - passwords manager, works with kdbx format
 
 ### ⚒️ Development
 
