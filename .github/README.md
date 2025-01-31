@@ -268,8 +268,8 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [plasma6-kde_controlcentre](https://github.com/Prayag2/kde_controlcentre) — MacOS-like control center for KDE
 - [kde-shader-wallaper](https://github.com/y4my4my4m/kde-shader-wallpaper/tree/plasma6) <sup>(no arch packages)</sup> — self-explanatory. This is worth your look
 - [kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) — Android's Material You color palette for KDE
-- [kando](https://github.com/kando-menu/kando) — a nice looking cross-platform pie menu
-- [kwin-effect-rounded-corners](https://github.com/matinlotfali/KDE-Rounded-Corners) — rounded window corners with outlines and shadow interpolation
+- [kando-bin](https://github.com/kando-menu/kando) — a nice looking cross-platform pie menu
+- [kwin-effect-rounded-corners-git](https://github.com/matinlotfali/KDE-Rounded-Corners) — rounded window corners with outlines and shadow interpolation
 - [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur) — self-explanatory
 - [kwin-effects-kinetic](https://github.com/gurrgur/kwin-effects-kinetic) — kinetic kwin effects
 - [kwin4_effect_geometry_change](https://github.com/peterfajdiga/kwin4_effect_geometry_change) <sup>(no arch packages)</sup> — animations for windows moved or resized by programs
