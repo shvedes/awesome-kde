@@ -31,6 +31,7 @@ An indented bullet list under a package shows optional dependencies. Installing 
 
 ## Contents
 
+- [The Simple Way](#The-simple-way)
 - [Core components](#Core-components)
 - [KDE PIM](#KDE-PIM)
 - [Administration](#Administration)
@@ -39,6 +40,16 @@ An indented bullet list under a package shows optional dependencies. Installing 
 - [Programming](#Programming)
 - [Misc](#Misc)
 - [Third Party Apps](#Third-party-applications)
+
+## The simple way
+
+To avoid installing the packages found here selectively and manually, you can use the group of packages that Arch Linux provides. To get the entire list of package groups for KDE, you can enter this command:
+
+```bash
+curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+' | sed 's/<$//' | jq -R . | uniq
+```
+
+and select the package groups you want.
 
 ## Core components
 
