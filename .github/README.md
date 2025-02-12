@@ -46,10 +46,18 @@ An indented bullet list under a package shows optional dependencies. Installing 
 To avoid installing the packages found here selectively and manually, you can use the group of packages that Arch Linux provides. To get the entire list of package groups for KDE, you can enter this command:
 
 ```bash
-curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+' | sed 's/<$//' | jq -R . | uniq
+curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' | sed 's/<$//' | jq -R . | sed 's/\"//g' | uniq
 ```
 
 and select the package groups you want.
+
+Or, if you are **crazy** and want literally every component:
+
+```bash
+sudo pacman -S --needed $(curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' | sed 's/<$//' | jq -R . | sed 's/\"//g' | uniq)
+```
+
+![image](https://github.com/user-attachments/assets/93a3a842-2f62-43f5-a356-51a813216872)
 
 ## Core components
 
