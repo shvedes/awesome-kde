@@ -86,18 +86,24 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [qt{5,6}-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more in Qt apps
 
 > [!WARNING]
-> ~~**Do not install both `power-profiles-daemon` and `tuned`!**~~
-> 
-> ~~The `power-profiles-daemon` uses the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver for CPU frequencies, unlike `acpi-cpufreq`. For CPUs without CPPC support (e.g., Zen 1 or some Zen 2), use `tuned` and `tuned-ppd` instead. 
-> Enable the systemd service for both packages after installation. No reboot required:~~
+>
+> **Do not install both `ufw` and `firewalld`!**
+>
+> ---
+>
+> When choosing a power management utility, consider the differences between tuned and power-profiles-daemon (ppd).
+>
+>    - `power-profiles-daemon` is a simple tool that works via D-Bus and relies on the pstate driver, making it incompatible with some systems.
+>    - `tuned` is a more flexible and powerful tool, even used on servers. With tuned-ppd, it can emulate ppd's D-Bus API.
+>
+> If ppd doesn’t allow performance adjustments in KDE, try tuned (optionally tuned-ppd) and enable the service.
+>
+> If you don’t need power management in KDE, you don’t have to install either.>
 > ```bash
 > sudo pacman -S tuned tuned-ppd
 > sudo systemctl enable --now tuned tuned-ppd
 > ```
-> 
-> ~~**Do not install both `ufw` and `firewalld`!**~~
->
-> This information does not accurately convey the essence of the utilities described. This should be rewritten in the future.
+
 
 ## KDE PIM 
 
