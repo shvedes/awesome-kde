@@ -287,7 +287,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 
 ### Administration
 
-- [kdiskmaerk](https://github.com/JonMagon/KDiskMark) - [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark) alternative for Linux
+- [kdiskmark](https://github.com/JonMagon/KDiskMark) - [CrystalDiskMark](https://sourceforge.net/projects/crystaldiskmark) alternative for Linux
 - [bleachbit](https://github.com/bleachbit/bleachbit) - powerful cache cleaner
 - [konsave](https://github.com/Prayag2/konsave) - backup tool designed for KDE Plasma
 - [apdatifier](https://github.com/exequtic/apdatifier) <sup>(no arch packages)</sup> - applet for managing Arch Linux updates (including AUR)
