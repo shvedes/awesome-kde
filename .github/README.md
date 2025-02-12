@@ -42,8 +42,6 @@ An indented bullet list under a package shows optional dependencies. Installing 
 
 ## Core components
 
-[To the top](#Contents)
-
 A list of KDE components that work invisibly to the user, but do important work, **extending** the functionality of DE.
 
 - [svgpart](https://apps.kde.org/svgpart) - allows some KDE applications to render .svg without third-party apps
@@ -88,20 +86,20 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [qt{5,6}-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more in Qt apps
 
 > [!WARNING]
-> **Do not install both `power-profiles-daemon` and `tuned`!**
+> ~~**Do not install both `power-profiles-daemon` and `tuned`!**~~
 > 
-> The `power-profiles-daemon` uses the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver for CPU frequencies, unlike `acpi-cpufreq`. For CPUs without CPPC support (e.g., Zen 1 or some Zen 2), use `tuned` and `tuned-ppd` instead. 
-> Enable the systemd service for both packages after installation. No reboot required:
+> ~~The `power-profiles-daemon` uses the [CPPC](https://docs.kernel.org/admin-guide/acpi/cppc_sysfs.html) driver for CPU frequencies, unlike `acpi-cpufreq`. For CPUs without CPPC support (e.g., Zen 1 or some Zen 2), use `tuned` and `tuned-ppd` instead. 
+> Enable the systemd service for both packages after installation. No reboot required:~~
 > ```bash
 > sudo pacman -S tuned tuned-ppd
 > sudo systemctl enable --now tuned tuned-ppd
 > ```
 > 
-> **Do not install both `ufw` and `firewalld`!**
+> ~~**Do not install both `ufw` and `firewalld`!**~~
+>
+> This information does not accurately convey the essence of the utilities described. This should be rewritten in the future.
 
 ## KDE PIM 
-
-[To the top](#Contents)
 
 **Note**: All of the packages listed below are supported by the KDE team.
 
@@ -124,8 +122,6 @@ To install the entire set of required programs at once, use the `kde-pim` packag
 For detailed further instructions, please refer to [ArchWiki](https://wiki.archlinux.org/title/KDE#PIM).
 
 ## Administration
-
-[To the top](#Contents)
 
 - [filelight](https://apps.kde.org/filelight) -  disk usage visualizer
 - [isoimagewriter](https://apps.kde.org/isoimagewriter) - disk image writer. Also try [Ventoy](https://github.com/ventoy/Ventoy)
@@ -150,8 +146,6 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 
 ## Multimedia
 
-[To the top](#Contents)
-
 - [amarok](https://apps.kde.org/amarok) - music player
 - [audiotube](https://apps.kde.org/audiotube) - YouTube music player
 - [kaffeine](https://apps.kde.org/kaffeine) - media player
@@ -168,8 +162,6 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [vvave](https://apps.kde.org/vvave) - music player
 
 ## Office
-
-[To the top](#Contents)
 
 - [arianna](https://apps.kde.org/arianna) - convenient ebook reader
 - [calligra](https://apps.kde.org/calligra) - all-in-one office suite
@@ -216,8 +208,6 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 
 ## Programming
 
-[To the top](#Contents)
-
 - [kommit](https://apps.kde.org/kommit) - git GUI frontend
 - [kate](https://apps.kde.org/kate) - advanced text editor
     - `clang` - C & C++ LSP support
@@ -240,8 +230,6 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 
 ## Misc
 
-[To the top](#Contents)
-
 - [alpaka](https://apps.kde.org/alpaka) — GUI frontend for [Ollama](https://ollama.com). *Note*: still in development
 - [kcharselect](https://apps.kde.org/kcharselect) — unicode character picker
 - [kclock](https://apps.kde.org/kclock) — simple clock app for KDE Plasma / Plasma Mobile
@@ -255,8 +243,6 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 ## Third party applications
 
 ### Plasma components
-
-[To the top](#Contents)
 
 - [plasma6-applets-fokus](https://gitlab.com/divinae/focus-plasmoid) — pomodoro timer plasmoid
 - [plasma6-applets-panel-colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer) — customize your panel as you want
