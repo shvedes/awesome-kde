@@ -322,4 +322,5 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [protonup-qt](https://github.com/DavidoTek/ProtonUp-Qt) - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
 - [qbittorrent](https://github.com/qbittorrent/qBittorrent) - you know what is this!
 - [media-downloader](https://github.com/mhogomchungu/media-downloader) - a cross-platform app for downloading media from a popular sites
-- [plasma-manager](https://github.com/nix-community/plasma-manager) <sup>(no arch packages)</sup> - Home Manager module for KDE Plasma
+- [plasma-manager](https://github.com/nix-community/plasma-manager) <sup>(not an arch package)</sup> - Home Manager module for KDE Plasma
+- [mpris-discord-rpc](https://github.com/patryk-ku/mpris-discord-rpc) - self-explanatory. Not a KDE component nor made for KDE, but can integrate well with Haruna, Dragon, mpv and more, providing functional Discord RPC interface
