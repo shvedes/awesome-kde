@@ -1,6 +1,6 @@
 # How to display your own wallpaper collection in Plasma's wallpaper window
 
-Thanks to a nice feature like symlinks in Linux, we can use them in `$XDG_DATA_HOME` (aka `$HOME/.local/share`). If you are wondering why this folder, I will remind you that `$XDG_DATA_HOME` is a user-side representation of `/usr/share` (well, sort of).
+Thanks to a nice feature like symlinks in Linux, we can use them in `$XDG_DATA_HOME` (aka `$HOME/.local/share`). If you are wondering why this folder, I will remind you that `$XDG_DATA_HOME` is a user-side representation of `/usr/share` (well, sort of). And I say this because in `/usr/share/` there is a folder `wallpapers` where all the standard wallpapers for KDE, GNOME and other DEs are located.
 
 And so, now I'll show you by example. I have the latest KDE Plasma 6.3 installed on CachyOS. This is a cleanest system where only the icons have been changed to Papirus. 
 
