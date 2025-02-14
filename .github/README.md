@@ -7,6 +7,8 @@ KDE is modular, and in DIY distributions like Arch Linux, numerous packages are 
 This page covers nearly every component and package required to achieve various functionalities in KDE and its applications.
 It also includes AUR packages, scripts, effects, and community-created applications designed to further enhance the KDE Plasma experience.
 
+Update: for the first guide you can visit [this page](../guides/plasma-wallpaper.md).
+
 ## To Do
 
 - [ ] install scripts for core components (like thumbnail plugins)
