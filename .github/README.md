@@ -297,6 +297,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [chat-qt](https://github.com/DenysMb/ChatQT-Plasmoid) <sup>(no arch packages)</sup> — ollama chat plasmoid
 - [plasmoid-dockio](https://github.com/imoize/plasmoid-dockio) <sup>(no arch packages)</sup> — docker containers management
 - [kwin-gestures](https://github.com/taj-ny/kwin-gestures) — custom kwin touchpad gestures for Plasma 6
+- [kde-thumbnailer-ap](https://github.com/z3ntu/kde-thumbnailer-apk) - you got it right; Android's .apk thumbnails
 
 ### Administration
 
