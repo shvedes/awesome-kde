@@ -105,6 +105,7 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [kimageformats](https://api.kde.org/frameworks/kimageformats/html/index.html) - a KDE library adding support for various image formats, enabling viewing and processing in KDE apps. More info [here](https://api.kde.org/frameworks/kimageformats/html/index.html)
 - [icoutils](https://www.nongnu.org/icoutils) - thumbnails for Windows executables in KDE apps
 - [qt{5,6}-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more in Qt apps
+- [dolphin-plugins] - provides a variety of useful plugins for Dolphin, including ISO mounting
 
 > [!WARNING]
 >
