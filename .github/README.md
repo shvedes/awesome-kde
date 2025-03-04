@@ -183,6 +183,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [haruna](https://apps.kde.org/haruna) - [mpv](https://mpv.io) on steroids
     - `yt-dlp` - YouTube streaming support
 - [juk](https://apps.kde.org/juk) - music player
+- [kid3](https://apps.kde.org/kid3) - audio tag editor
 - [kget](https://apps.kde.org/kget) - universal download manager
     - `libktorrent` - torrent support
 - [ktorrent](https://apps.kde.org/ktorrent) - torrent client
