@@ -301,6 +301,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [plasmoid-dockio](https://github.com/imoize/plasmoid-dockio) <sup>(no arch packages)</sup> — docker containers management
 - [kwin-gestures](https://github.com/taj-ny/kwin-gestures) — custom kwin touchpad gestures for Plasma 6
 - [kde-thumbnailer-apk](https://github.com/z3ntu/kde-thumbnailer-apk) - you got it right; Android's .apk thumbnails
+- [klassy](https://github.com/paulmcauley/klassy) - custom window decoration, application style and global theme
 
 ### Administration
 
