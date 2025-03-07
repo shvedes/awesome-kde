@@ -59,7 +59,11 @@ Or, if you are **crazy** and want literally every component:
 sudo pacman -S --needed $(curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' | sed 's/<$//' | jq -R . | sed 's/\"//g' | uniq)
 ```
 
+<div align="center">
+
 ![image](https://github.com/user-attachments/assets/93a3a842-2f62-43f5-a356-51a813216872)
+
+</div>
 
 ## Core components
 
@@ -76,19 +80,19 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [kio-admin](https://github.com/KDE/kio-admin) - allows you manage files as administrator
 - [xwaylandvideobridge](https://github.com/KDE/xwaylandvideobridge) - utility to stream Wayland windows to X apps
 - [iio-sensor-proxy](https://gitlab.freedesktop.org/hadess/iio-sensor-proxy) - automatic screen rotation
-- [libappindicator-gtk3](https://code.launchpad.net/libappindicator) - tray icon for [GTK3](https://docs.gtk.org/gtk3) apps
-- [maliit-keyboard](https://maliit.github.io) - on-screen keyboard
-- [power-profiles-daemon](https://gitlab.freedesktop.org/upower/power-profiles-daemon) - enables the power management in Plasma. Please read the callout below
-- [tuned](https://github.com/redhat-performance/tuned) & [tuned-ppd](https://github.com/redhat-performance/tuned) - enables the power management in Plasma. Please read the callout below
+- [libappindicator-gtk3](https://code.launchpad.net/libappindicator) - tray icon support for [GTK3](https://docs.gtk.org/gtk3) apps (deprecated, use [libayatana-appindicator](https://github.com/AyatanaIndicators/libayatana-appindicator))
+- [maliit-keyboard](https://maliit.github.io) - on-screen keyboard. Not available on desktops even if installed
+- [power-profiles-daemon](https://gitlab.freedesktop.org/upower/power-profiles-daemon) - enables the power management in Plasma. Please read the note below
+- [tuned](https://github.com/redhat-performance/tuned) & [tuned-ppd](https://github.com/redhat-performance/tuned) - enables the power management in Plasma. Please read the note below
 - [orca](https://userbase.kde.org/Accessibility/Plasma#Starting_Orca_Screenreader) - screen reader
 - [cryfs](https://www.cryfs.org) & [encfs](https://github.com/vgough/encfs) & [gocryptfs](https://github.com/rfjakob/gocryptfs) - filesystems for Plasma Vault
-- [ufw](https://git.launchpad.net/ufw) - firewall daemon. Please read the callout below
-- [firewalld](https://github.com/firewalld/firewalld) - firewall daemon. Please read the callout below
-- [fwupd](https://github.com/fwupd/fwupd) - adds the ability to update PC firmware from Discover
-- [quota-tools](https://sourceforge.net/projects/linuxquota) - applet for Disk Quota. You don't really need this
+- [ufw](https://git.launchpad.net/ufw) - firewall daemon. Please read the note below
+- [firewalld](https://github.com/firewalld/firewalld) - firewall daemon. Please read the note below
+- [fwupd](https://github.com/fwupd/fwupd) - provides ability to update PC firmware from Discover
+- [quota-tools](https://sourceforge.net/projects/linuxquota) - applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't really need this
 - [ripgrep{-all}](https://github.com/BurntSushi/ripgrep) - Dolphin's search backend <sup>[`blog`](https://blogs.kde.org/2024/10/02/use-ripgrep-all-/-ripgrep-to-improve-search-in-dolphin)</sup> when baloo is off
 - [hunspell](https://github.com/hunspell/hunspell) & [hunspell-$LANG](https://github.com/hunspell/hunspell) - spell cheking and dictionaries
-- [krfb](https://apps.kde.org/krfb) - remote desktop
+- [krfb](https://apps.kde.org/krfb) - remote desktop support
 - [symmy-git](https://invent.kde.org/utilities/symmy) - encrypt and decrypt local files from Dolphin's context menu
 - [kdeconnect](https://kdeconnect.kde.org) - seamlessly integrates your phone and devices with Plasma
     - `sshfs` - Allows to browse phone's filesystem
@@ -103,10 +107,10 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [ffmpegthumbs](https://github.com/KDE/ffmpegthumbs) - video thumbnails across KDE apps
 - [kdegraphics-thumbnailers](https://apps.kde.org/kdegraphics_thumbnailers) - a collection of plugins for generating file thumbnails
 - [kimageformats](https://api.kde.org/frameworks/kimageformats/html/index.html) - a KDE library adding support for various image formats, enabling viewing and processing in KDE apps. More info [here](https://api.kde.org/frameworks/kimageformats/html/index.html)
-- [icoutils](https://www.nongnu.org/icoutils) - thumbnails for Windows executables in KDE apps
+- [icoutils](https://www.nongnu.org/icoutils) - thumbnails for Windows executables in KDE apps. Note: not all *.exe support thumbnail preview
 - [qt{5,6}-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more in Qt apps
 - [dolphin-plugins](https://apps.kde.org/dolphin_plugins) - provides a variety of useful plugins for Dolphin, including ISO mounting
-- [pulseaudio-qt](https://community.kde.org/Frameworks) - self-explanatory
+- [pulseaudio-qt](https://community.kde.org/Frameworks) - Qt bindings for libpulse. You might want to install this
 
 > [!WARNING]
 >
@@ -121,7 +125,7 @@ A list of KDE components that work invisibly to the user, but do important work,
 >
 > If ppd doesn’t allow performance adjustments in KDE, try tuned (optionally tuned-ppd) and enable the service.
 >
-> If you don’t need power management in KDE, you don’t have to install either.>
+> If you don’t need power management in KDE, you don’t have to install either.
 > ```bash
 > sudo pacman -S tuned tuned-ppd
 > sudo systemctl enable --now tuned tuned-ppd
@@ -157,7 +161,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [kdiskfree](https://apps.kde.org/kdf) - view disk usage
 - [kfind](https://apps.kde.org/kfind) - simple but fast file searching
     - `mlocate` - search using mlocate index
-- [kgpg](https://apps.kde.org/kgpg) - GPG keys management
+- [kgpg](https://apps.kde.org/kgpg) - frontend for GPG keys management
 - [kjournald](https://invent.kde.org/system/kjournald) - view and manage [journalctl](https://www.freedesktop.org/software/systemd/man/journalctl.html) logs
 - [ksystemlog](https://apps.kde.org/ksystemlog) - view and manage kernel, Xorg, and other system logs
 - [krusader](https://apps.kde.org/krusader) - twin-pannel file manager
@@ -168,9 +172,9 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
     - `konsolepart` - terminal support
     - `ktexteditor` - file editing support
 - [partitionmanager](https://apps.kde.org/partitionmanager) - *"[GParted](https://gparted.org) by KDE"*
-    - *Opt deps*: the same as opt deps for GParted
+    - *Opt deps*: the same as opt deps for GParted (`pacman -Qi gparted`)
 - [sweeper](https://apps.kde.org/sweeper) - cache cleaner
-- [systemdgenie](https://invent.kde.org/system/systemdgenie) - systemd management tool
+- [systemdgenie](https://invent.kde.org/system/systemdgenie) - control systemd services from GUI frontend
 - [yakuake](https://apps.kde.org/yakuake) - drop-down terminal
 
 ## Multimedia
@@ -193,7 +197,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 
 ## Office
 
-- [arianna](https://apps.kde.org/arianna) - convenient ebook reader
+- [arianna](https://apps.kde.org/arianna) - simple ebook reader
 - [calligra](https://apps.kde.org/calligra) - all-in-one office suite
     - `libetonyek` - Apple Keynote import filter
     - `libvisio` - Microsoft Visio import filter
@@ -228,7 +232,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
     - `recordmydesktop` - screen capture
 - [kile](https://apps.kde.org/kile) - LaTex editor
 - [klevernotes](https://apps.kde.org/klevernotes) - note-taking app
-- [kolourpaint](https://apps.kde.org/kolourpaint) - simple paint app, similar to Windows
+- [kolourpaint](https://apps.kde.org/kolourpaint) - simple paint app, similar to "Paint" in Windows
 - [kphotoalbum](https://apps.kde.org/kphotoalbum) - photo management tool (tags, collections, and more)
 - [okular](https://apps.kde.org/okular) - PDF reader on steroids
     - `ebook-tools` - mobi and epub support
@@ -280,28 +284,29 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [plasma6-applets-panon](https://github.com/rbn42/panon) — an audio visualizer widget
 - [plasma6-wallpapers-blurredwallpaper](https://github.com/bouteillerAlan/blurredwallpaper) — blurs wallpaper when active window is present
 - [plasma6-wallpapers-wallpaper-engine-git](https://github.com/catsout/wallpaper-engine-kde-plugin) — Wallpaper Engine plugin for KDE Plasma
-- [plasma6-applets-weather-widget-3-git](https://github.com/blackadderkate/weather-widget-2) — simple weather widget, that live in the taskbar / tray
+- [plasma6-applets-weather-widget-3-git](https://github.com/blackadderkate/weather-widget-2) — simple weather widget that live in the taskbar / tray
 - [plasma6-kde_controlcentre](https://github.com/Prayag2/kde_controlcentre) — MacOS-like control center for KDE
-- [kde-shader-wallaper](https://github.com/y4my4my4m/kde-shader-wallpaper/tree/plasma6) <sup>(no arch packages)</sup> — self-explanatory. This is worth your look
-- [kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) — Android's Material You color palette for KDE
+- [kde-shader-wallaper](https://github.com/y4my4my4m/kde-shader-wallpaper/tree/plasma6) <sup>(no AUR packages)</sup> — self-explanatory. This is worth your look
+- [kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) — Material Design 3 color palette generator for KDE
 - [kando-bin](https://github.com/kando-menu/kando) — a nice looking cross-platform pie menu
 - [kwin-effect-rounded-corners-git](https://github.com/matinlotfali/KDE-Rounded-Corners) — rounded window corners with outlines and shadow interpolation
 - [kwin-effects-forceblur](https://github.com/taj-ny/kwin-effects-forceblur) — self-explanatory
 - [kwin-effects-kinetic](https://github.com/gurrgur/kwin-effects-kinetic) — kinetic kwin effects
-- [kwin4_effect_geometry_change](https://github.com/peterfajdiga/kwin4_effect_geometry_change) <sup>(no arch packages)</sup> — animations for windows moved or resized by programs
-- [kwin-scripts-krohnkite-git](https://github.com/anametologin/krohnkite) — dynamic window tiling
+- [kwin4_effect_geometry_change](https://github.com/peterfajdiga/kwin4_effect_geometry_change) <sup>(no AUR packages)</sup> — animations for windows moved or resized by programs
+- [kwin-scripts-krohnkite-git](https://github.com/anametologin/krohnkite) — a dynamic tiling extension for KWin 
 - [kwin-scripts-mudeer](https://github.com/darkstego/Mudeer) — virtual screen splitting
-- [kwin-polonium](https://github.com/zeroxoneafour/polonium) — tiling manager for Plasma 6
-- [chatgpt-plasmoid](https://github.com/dark-eye/com.darkeye.chatGPT) <sup>(no arch packages)</sup> — ChatGPT plasmoid
-- [ditto-menu](https://github.com/adhec/dittoMenuKDE) <sup>(no arch packages)</sup> — Windows 11-like application launcher
-- [krunner-translator](https://github.com/rizutazu/krunner-translator) <sup>(no arch packages)</sup> — Google Translate plugin for krunner
-- [fancytasks](https://github.com/alexankitty/FancyTasks) — Plasma's "Icons-Only Task Manager" on steroids
-- [ollama-control](https://github.com/imoize/plasmoid-ollamacontrol) <sup>(no arch packages)</sup> — control ollama models from the taskbar
-- [chat-qt](https://github.com/DenysMb/ChatQT-Plasmoid) <sup>(no arch packages)</sup> — ollama chat plasmoid
-- [plasmoid-dockio](https://github.com/imoize/plasmoid-dockio) <sup>(no arch packages)</sup> — docker containers management
+- [kwin-polonium](https://github.com/zeroxoneafour/polonium) — a tiling window manager for Plasma 6
+- [chatgpt-plasmoid](https://github.com/dark-eye/com.darkeye.chatGPT) <sup>(no AUR packages)</sup> — ChatGPT plasmoid
+- [ditto-menu](https://github.com/adhec/dittoMenuKDE) <sup>(no AUR packages)</sup> — Windows 11-like application launcher
+- [krunner-translator](https://github.com/rizutazu/krunner-translator) <sup>(no AUR packages)</sup> — Google Translate plugin for krunner
+- [fancytasks](https://github.com/alexankitty/FancyTasks) — Plasma's "Icons-Only Task Manager" on steroids. Note: not available for Plasma 6
+- [ollama-control](https://github.com/imoize/plasmoid-ollamacontrol) <sup>(no AUR packages)</sup> — control ollama models from the taskbar
+- [chat-qt](https://github.com/DenysMb/ChatQT-Plasmoid) <sup>(no AUR packages)</sup> — ollama chat plasmoid
+- [plasmoid-dockio](https://github.com/imoize/plasmoid-dockio) <sup>(no AUR packages)</sup> — docker containers management
 - [kwin-gestures](https://github.com/taj-ny/kwin-gestures) — custom kwin touchpad gestures for Plasma 6
-- [kde-thumbnailer-apk](https://github.com/z3ntu/kde-thumbnailer-apk) - you got it right; Android's .apk thumbnails
-- [klassy](https://github.com/paulmcauley/klassy) - custom window decoration, application style and global theme
+- [kde-thumbnailer-apk](https://github.com/z3ntu/kde-thumbnailer-apk) — you got it right; Android's .apk thumbnails
+- [klassy](https://github.com/paulmcauley/klassy) — custom window decoration, application style and global theme
+- [lightly-qt](https://github.com/Luwx/Lightly) — a modern style for qt applications 
 
 ### Administration
 
@@ -329,3 +334,4 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [media-downloader](https://github.com/mhogomchungu/media-downloader) - a cross-platform app for downloading media from a popular sites
 - [plasma-manager](https://github.com/nix-community/plasma-manager) <sup>(not an arch package)</sup> - Home Manager module for KDE Plasma
 - [mpris-discord-rpc](https://github.com/patryk-ku/mpris-discord-rpc) - self-explanatory. Not a KDE component nor made for KDE, but can integrate well with Haruna, Dragon, mpv and more, providing functional Discord RPC interface
+- [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) - custom folder color for Papirus icon theme. Also check [this](https://github.com/shvedes/awesome-kde/wiki/Make-your-folders-even-more-organized)
