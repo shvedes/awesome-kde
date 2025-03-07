@@ -1,0 +1,30 @@
+[Desktop Entry]
+Type=Service
+MimeType=image/*
+Actions=convertToPng;convertToJpg;convertToWebp;convertToJpeg;convertToAvif
+X-KDE-Submenu=Convert to
+
+[Desktop Action convertToPng]
+Name=PNG
+Icon=viewimage
+Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh png %U
+
+[Desktop Action convertToJpg]
+Name=JPG
+Icon=viewimage
+Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh jpg %U
+
+[Desktop Action convertToJpeg]
+Name=JPEG
+Icon=viewimage
+Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh jpeg %U
+
+[Desktop Action convertToWebp]
+Name=WEBP
+Icon=viewimage
+Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh webp %U
+
+[Desktop Action convertToAvif]
+Name=AVIF
+Icon=viewimage
+Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh avif %U
