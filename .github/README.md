@@ -73,6 +73,7 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [markdownpart](https://apps.kde.org/markdownpart) - allows some KDE applications to render .md without third-party apps
 - [baloo-widgets](https://github.com/KDE/baloo-widgets) - extra metadata in Dolphin's Information Panel (requires Baloo indexing)
 - [kde-inotify-survey](https://github.com/KDE/kde-inotify-survey) - diagnostic tool to check inotify limits, a kernel feature for monitoring filesystem events
+[flatpak-kcm](https://kde.org/plasma-desktop) -  system settings module for controlling flatpak apps
 - [kdenetwork-filesharing](https://apps.kde.org/kdenetwork_filesharing) - provides easy file sharing over the network. *Note: still in development*
 - [kio-extras](https://github.com/KDE/kio-extras) - additional components to increase the functionality of KIO
 - [kio-fuse](https://github.com/KDE/kio-fuse) - allows you to mount remote directories
