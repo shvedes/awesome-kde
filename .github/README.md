@@ -112,6 +112,7 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [qt{5,6}-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more in Qt apps
 - [dolphin-plugins](https://apps.kde.org/dolphin_plugins) - provides a variety of useful plugins for Dolphin, including ISO mounting
 - [pulseaudio-qt](https://community.kde.org/Frameworks) - Qt bindings for libpulse. You might want to install this
+- [system-config-printer](https://archlinux.org/packages/extra/x86_64/system-config-printer/) - cups interface for system settings
 
 > [!WARNING]
 >
