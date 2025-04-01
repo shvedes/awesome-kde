@@ -2,77 +2,37 @@
 
 ![preview](./header-image.png)
 
-KDE is modular, and in DIY distributions like Arch Linux, numerous packages are required to achieve the full experience offered by OOT distributions (Kubuntu, KDE Neon, etc.). However, even those don’t include all KDE components. This list is useful for DIY distribution users but also for anyone interested in KDE software.
+KDE, like all of Linux, is modular, and sometimes you need to install additional packages to get certain functionalities. Are you a long-time Arch user? Did you know you can backup your important files directly from the system settings?
 
-This page covers nearly every component and package required to achieve various functionalities in KDE and its applications.
-It also includes AUR packages, scripts, effects, and community-created applications designed to further enhance the KDE Plasma experience.
+This repository contains a list of official Arch Linux / AUR packages (developed by KDE team) as well as third-party applications and plugins that add or enhance KDE’s functionality. You can also check out the repository’s Wiki page, where you might find useful information.
 
-Update: Wiki is now available. Please familiarize yourself with it [here](https://github.com/shvedes/awesome-kde/wiki)
+This repository is **not** a guide for installing KDE Plasma on Arch Linux, **nor** is it a beginner’s manual (well, except for the Wiki, perhaps). Additionally, it aims to avoid packages that are automatically installed along with the `plasma` package group, the `plasma-desktop` meta-package, and others. More details about this are provided [here](https://wiki.archlinux.org/title/Meta_package_and_package_group).
 
-## To Do
-
-- [ ] install scripts for core components (like thumbnail plugins)
-- [ ] open an issue and tell me
-
-## One more thing
-
-The package names listed here are for Arch-based distributions. If your distribution uses different package names for the same applications, you’ll have to find the equivalents yourself. This page will not list packages that are included in the `plasma` package group or in the `plasma-desktop` meta package.
-
-Over time, this repository will include scripts and instructions for various tasks (install scripts, how-to guides and more) — consider it an all-in-one resource. 
-
-### Formatting
-
-Each package will have a link leading to its source code.
-
-An indented bullet list under a package shows optional dependencies. Installing them is not mandatory, but recommended for a complete KDE Plasma experience.
-
-### Contributing / Support
-
-- If you’d like to contribute, feel free to submit a PR with your application
-- If you want to support me, just become a follower on GitHub. If you want to support me financially, open an issue
-
-## Contents
-
-- [The Simple Way](#The-simple-way)
-- [Core components](#Core-components)
-- [KDE PIM](#KDE-PIM)
-- [Administration](#Administration)
-- [Multimedia](#Multimedia)
-- [Office](#Office)
-- [Programming](#Programming)
-- [Misc](#Misc)
-- [Third Party Apps](#Third-party-applications)
-
-## The simple way
-
-To avoid installing the packages found here selectively and manually, you can use the group of packages that Arch Linux provides. To get the entire list of package groups for KDE, you can enter this command:
+If you don’t want to worry about selecting the right components and want a complete, ready-to-use desktop environment immediately, you can run this command to get every KDE package group (jq required):
 
 ```bash
 curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' | sed 's/<$//' | jq -R . | sed 's/\"//g' | uniq
 ```
 
-and select the package groups you want.
+Running this command will give you a list of all KDE Plasma package groups you want to install.
 
-Or, if you are **crazy** and want literally every component:
+#### Contributing
 
-```bash
-sudo pacman -S --needed $(curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' | sed 's/<$//' | jq -R . | sed 's/\"//g' | uniq)
-```
+If you’d like to contribute to the development of this repository, feel free to open an issue or pull request explaining why the component you’ve chosen should be included in this list.
 
-<div align="center">
+#### Support
 
-![image](https://github.com/user-attachments/assets/93a3a842-2f62-43f5-a356-51a813216872)
-
-</div>
+If you’d like to show your appreciation, leave a star on this repository and follow me on GitHub.  
+If you’d like to support me financially, please open an issue.
 
 ## Core components
 
 A list of KDE components that work invisibly to the user, but do important work, **extending** the functionality of DE.
 
-- [svgpart](https://apps.kde.org/svgpart) - allows some KDE applications to render .svg without third-party apps
-- [markdownpart](https://apps.kde.org/markdownpart) - allows some KDE applications to render .md without third-party apps
-- [baloo-widgets](https://github.com/KDE/baloo-widgets) - extra metadata in Dolphin's Information Panel (requires Baloo indexing)
-- [kde-inotify-survey](https://github.com/KDE/kde-inotify-survey) - diagnostic tool to check inotify limits, a kernel feature for monitoring filesystem events
+- [svgpart](https://apps.kde.org/svgpart) - allows some KDE apps to render svg images without third-party tools
+- [markdownpart](https://apps.kde.org/markdownpart) - allows some KDE applications to render markdown without third-party tools
+- [baloo-widgets](https://github.com/KDE/baloo-widgets) - extra metadata in Dolphin's information panel
+- [kde-inotify-survey](https://github.com/KDE/kde-inotify-survey) - diagnostic tool to check inotify limits ([screenshot](https://raw.githubusercontent.com/KDE/kde-inotify-survey/refs/heads/master/screenshot.png), [wikipedia](https://en.wikipedia.org/wiki/Inotify))
 - [flatpak-kcm](https://kde.org/plasma-desktop) -  system settings module for controlling flatpak apps
 - [kdenetwork-filesharing](https://apps.kde.org/kdenetwork_filesharing) - provides easy file sharing over the network. *Note: still in development*
 - [kio-extras](https://github.com/KDE/kio-extras) - additional components to increase the functionality of KIO
