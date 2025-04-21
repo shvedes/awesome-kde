@@ -175,6 +175,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
     - `cmark` - [CommonMark](https://commonmark.org) support
     - `mathjax` - [MathJax](https://www.mathjax.org) rendering in live preview
     - `pandoc` - [Pandoc](https://github.com/jgm/pandoc) support
+- [marknote](https://invent.kde.org/office/marknote) - markdown editor / note-taking app
 - [gwenview](https://apps.kde.org/gwenview) - fast image viewer with editing features
     - `kamera` - import images from cameras
     - `kimageformats` - mentioned above
