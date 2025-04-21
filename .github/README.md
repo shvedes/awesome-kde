@@ -74,6 +74,7 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [pulseaudio-qt](https://community.kde.org/Frameworks) - Qt bindings for libpulse. You might want to install this
 - [system-config-printer](https://archlinux.org/packages/extra/x86_64/system-config-printer/) - cups interface for system settings
 - [keditbookmarks](https://github.com/KDE/keditbookmarks) - adds ability to edit bookmarks in some KDE apps
+- [colord-kde](https://invent.kde.org/swiftloke/colord-kde) - color management KCM module
 
 > [!WARNING]
 >
