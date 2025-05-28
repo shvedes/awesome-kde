@@ -75,6 +75,12 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [system-config-printer](https://archlinux.org/packages/extra/x86_64/system-config-printer/) - cups interface for system settings
 - [keditbookmarks](https://github.com/KDE/keditbookmarks) - adds ability to edit bookmarks in some KDE apps
 - [colord-kde](https://invent.kde.org/swiftloke/colord-kde) - color management KCM module
+- [audex](https://apps.kde.org/audex) - multimedia KCM module
+    - `faac` - MP4/M4A/AAC encoder
+    - `flac` - FLAC encoder
+    - `lame` - MP3 encoder
+    - `vorbis-tools` - OGG encoder
+    - `opus-tools` - OPUS encoder
 
 > [!WARNING]
 >
@@ -118,7 +124,7 @@ To install the entire set of required programs at once, use the `kde-pim` packag
 
 For detailed further instructions, please refer to [ArchWiki](https://wiki.archlinux.org/title/KDE#PIM).
 
-## Administration
+## System Administration / Monitoring
 
 - [filelight](https://apps.kde.org/filelight) -  disk usage visualizer
 - [isoimagewriter](https://apps.kde.org/isoimagewriter) - disk image writer. Also try [Ventoy](https://github.com/ventoy/Ventoy)
