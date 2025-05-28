@@ -31,7 +31,6 @@ A list of KDE components that work invisibly to the user, but do important work,
 
 - [svgpart](https://apps.kde.org/svgpart) - allows some KDE apps to render svg images without third-party tools
 - [markdownpart](https://apps.kde.org/markdownpart) - allows some KDE applications to render markdown without third-party tools
-- [baloo-widgets](https://github.com/KDE/baloo-widgets) - extra metadata in Dolphin's information panel
 - [kde-inotify-survey](https://github.com/KDE/kde-inotify-survey) - diagnostic tool to check inotify limits ([screenshot](https://raw.githubusercontent.com/KDE/kde-inotify-survey/refs/heads/master/screenshot.png), [wikipedia](https://en.wikipedia.org/wiki/Inotify))
 - [flatpak-kcm](https://kde.org/plasma-desktop) -  system settings module for controlling flatpak apps
 - [kdenetwork-filesharing](https://apps.kde.org/kdenetwork_filesharing) - provides easy file sharing over the network. *Note: still in development*
