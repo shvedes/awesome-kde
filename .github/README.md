@@ -25,10 +25,11 @@ If you’d like to contribute to the development of this repository, feel free t
 If you’d like to show your appreciation, leave a star on this repository and follow me on GitHub.  
 If you’d like to support me financially, please open an issue.
 
-## Core components
+## Core Components
 
 A list of KDE components that work invisibly to the user, but do important work, **extending** the functionality of DE.
 
+- `kf6` <sup>(package group)</sup> - important packages for building packages, generating documentation, and more
 - [svgpart](https://apps.kde.org/svgpart) - allows some KDE apps to render svg images without third-party tools
 - [markdownpart](https://apps.kde.org/markdownpart) - allows some KDE applications to render markdown without third-party tools
 - [kde-inotify-survey](https://github.com/KDE/kde-inotify-survey) - diagnostic tool to check inotify limits ([screenshot](https://raw.githubusercontent.com/KDE/kde-inotify-survey/refs/heads/master/screenshot.png), [wikipedia](https://en.wikipedia.org/wiki/Inotify))
@@ -40,40 +41,33 @@ A list of KDE components that work invisibly to the user, but do important work,
 - [kio-admin](https://github.com/KDE/kio-admin) - allows you manage files as administrator
 - [xwaylandvideobridge](https://github.com/KDE/xwaylandvideobridge) - utility to stream Wayland windows to X apps
 - [iio-sensor-proxy](https://gitlab.freedesktop.org/hadess/iio-sensor-proxy) - automatic screen rotation
-- [libappindicator-gtk3](https://code.launchpad.net/libappindicator) - tray icon support for [GTK3](https://docs.gtk.org/gtk3) apps (deprecated, use [libayatana-appindicator](https://github.com/AyatanaIndicators/libayatana-appindicator))
-- [maliit-keyboard](https://maliit.github.io) - on-screen keyboard. Not available on desktops even if installed
-- [power-profiles-daemon](https://gitlab.freedesktop.org/upower/power-profiles-daemon) - enables the power management in Plasma. Please read the note below
-- [tuned](https://github.com/redhat-performance/tuned) & [tuned-ppd](https://github.com/redhat-performance/tuned) - enables the power management in Plasma. Please read the note below
+- [maliit-keyboard](https://maliit.github.io) - on-screen keyboard
+- [power-profiles-daemon](https://gitlab.freedesktop.org/upower/power-profiles-daemon) - enables the power management in Plasma. Please read the note below. Don't use alongside [tuned](https://github.com/redhat-performance/tuned)
+- [tuned](https://github.com/redhat-performance/tuned) & [tuned-ppd](https://github.com/redhat-performance/tuned) - enables the power management in Plasma. Please read the note below. Don't use alongside [power-profiles-daemon](https://gitlab.freedesktop.org/upower/power-profiles-daemon)
 - [orca](https://userbase.kde.org/Accessibility/Plasma#Starting_Orca_Screenreader) - screen reader
-- [cryfs](https://www.cryfs.org) & [encfs](https://github.com/vgough/encfs) & [gocryptfs](https://github.com/rfjakob/gocryptfs) - filesystems for Plasma Vault
-- [ufw](https://git.launchpad.net/ufw) - firewall daemon. Please read the note below
-- [firewalld](https://github.com/firewalld/firewalld) - firewall daemon. Please read the note below
+- [cryfs](https://www.cryfs.org), ~~[encfs](https://github.com/vgough/encfs)~~ <sup>(deprecated)</sup>, [gocryptfs](https://github.com/rfjakob/gocryptfs) - pseudo / virtual filesystems for Plasma Vault
+- [ufw](https://git.launchpad.net/ufw) - firewall daemon. Don't use alongside firewalld
+- [firewalld](https://github.com/firewalld/firewalld) - firewall daemon. Don't use alongside ufw
 - [fwupd](https://github.com/fwupd/fwupd) - provides ability to update PC firmware from Discover
-- [quota-tools](https://sourceforge.net/projects/linuxquota) - applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't really need this
+- [quota-tools](https://sourceforge.net/projects/linuxquota) - applet for [Disk Quota](https://en.wikipedia.org/wiki/Disk_quota). You don't need this, trust me
 - [ripgrep{-all}](https://github.com/BurntSushi/ripgrep) - Dolphin's search backend <sup>[`blog`](https://blogs.kde.org/2024/10/02/use-ripgrep-all-/-ripgrep-to-improve-search-in-dolphin)</sup> when baloo is off
-- [hunspell](https://github.com/hunspell/hunspell) & [hunspell-$LANG](https://github.com/hunspell/hunspell) - spell cheking and dictionaries
+- [hunspell-<language-code>](https://github.com/hunspell/hunspell) - spell cheking and dictionaries
 - [krfb](https://apps.kde.org/krfb) - remote desktop support
-- [symmy-git](https://invent.kde.org/utilities/symmy) - encrypt and decrypt local files from Dolphin's context menu
+- [symmy-git](https://invent.kde.org/utilities/symmy) - encrypt and decrypt local files from Dolphin's context menu. *Probably* deprecated. AUR only. Note: `kf6` required to build the package
 - [kdeconnect](https://kdeconnect.kde.org) - seamlessly integrates your phone and devices with Plasma
-    - `sshfs` - Allows to browse phone's filesystem
-    - `qt6-tools` - Runcommand plugin settings
-    - `krfb` - Use remote device as virtual monitor
+    - `sshfs` - allows to browse phone's filesystem
+    - `qt6-tools` - runcommand plugin settings
+    - `krfb` - use remote device as virtual monitor
 - [kcm-grub2-git](https://invent.kde.org/system/kcm-grub2) - configure and manage the GRUB bootloader in Plasma. Note: `packagekit-qt6` is required! 
 - [kcron](https://apps.kde.org/kcron) - configure and schedule cron tasks
 - [kwalletmanager](https://apps.kde.org/nl/kwalletmanager5) - kwallet KCM module
 - [kup](https://invent.kde.org/system/kup) - manage backups in System Settings
     - `bup` - git packfile support
-    - `rsync` - you know what is this
-- [ffmpegthumbs](https://github.com/KDE/ffmpegthumbs) - video thumbnails across KDE apps
-- [kdegraphics-thumbnailers](https://apps.kde.org/kdegraphics_thumbnailers) - a collection of plugins for generating file thumbnails
-- [kimageformats](https://api.kde.org/frameworks/kimageformats/html/index.html) - a KDE library adding support for various image formats, enabling viewing and processing in KDE apps. More info [here](https://api.kde.org/frameworks/kimageformats/html/index.html)
-- [icoutils](https://www.nongnu.org/icoutils) - thumbnails for Windows executables in KDE apps. Note: not all *.exe support thumbnail preview
-- [qt{5,6}-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more in Qt apps
+    - `rsync` - you know what it is
 - [dolphin-plugins](https://apps.kde.org/dolphin_plugins) - provides a variety of useful plugins for Dolphin, including ISO mounting
-- [pulseaudio-qt](https://community.kde.org/Frameworks) - Qt bindings for libpulse. You might want to install this
 - [system-config-printer](https://archlinux.org/packages/extra/x86_64/system-config-printer/) - cups interface for system settings
 - [keditbookmarks](https://github.com/KDE/keditbookmarks) - adds ability to edit bookmarks in some KDE apps
-- [colord-kde](https://invent.kde.org/swiftloke/colord-kde) - color management KCM module
+- [colord-kde](https://invent.kde.org/swiftloke/colord-kde) - color management & KCM module
 - [audex](https://apps.kde.org/audex) - multimedia KCM module
     - `faac` - MP4/M4A/AAC encoder
     - `flac` - FLAC encoder
@@ -81,23 +75,26 @@ A list of KDE components that work invisibly to the user, but do important work,
     - `vorbis-tools` - OGG encoder
     - `opus-tools` - OPUS encoder
 
+### Thumbnail Generation / Thumbnail Engines
+
+- [ffmpegthumbs](https://github.com/KDE/ffmpegthumbs) - video files thumbnails across KDE apps
+- [kdegraphics-thumbnailers](https://apps.kde.org/kdegraphics_thumbnailers) - PostScript, RAW, Mobipocket y Blender projects previews
+- `kdegraphics-mobipocket` - a collection of plugins to handle mobipocket files. There is no clear description available
+- [kimageformats](https://api.kde.org/frameworks/kimageformats/html/index.html) - a KDE library adding support for various image formats, enabling viewing and processing in KDE apps. More info [here](https://api.kde.org/frameworks/kimageformats/html/index.html)
+- [icoutils](https://www.nongnu.org/icoutils) - thumbnails for Windows executables inside KDE apps. Note: not all `*.exe` support thumbnail preview
+- [qt6-imageformats](https://doc.qt.io/qt-6/qtimageformats-index.html) - supports formats like `.png`, `.jpeg`, `.gif` and more
+
 > [!WARNING]
 >
-> **Do not install both `ufw` and `firewalld`!**
->
-> ---
->
-> When choosing a power management utility, consider the differences between tuned and power-profiles-daemon (ppd).
->
->    - `power-profiles-daemon` is a simple tool that works via D-Bus and relies on the pstate driver, making it incompatible with some systems.
->    - `tuned` is a more flexible and powerful tool, even used on servers. With tuned-ppd, it can emulate ppd's D-Bus API.
->
-> If ppd doesn’t allow performance adjustments in KDE, try tuned (optionally tuned-ppd) and enable the service.
->
-> If you don’t need power management in KDE, you don’t have to install either.
+> To make power management available in KDE, enable corresponding systemd service:
+> 
 > ```bash
-> sudo pacman -S tuned tuned-ppd
-> sudo systemctl enable --now tuned tuned-ppd
+> systemctl enable --now <tuned tuned-ppd \| power-profiles-daemon>
+> ```
+> 
+> As well as firewall daemon:
+> ```bash
+> systemctl enable --now <ufw \| firewalld>
 > ```
 
 
@@ -127,10 +124,10 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 
 - [filelight](https://apps.kde.org/filelight) -  disk usage visualizer
 - [isoimagewriter](https://apps.kde.org/isoimagewriter) - disk image writer. Also try [Ventoy](https://github.com/ventoy/Ventoy)
-- [kdiskfree](https://apps.kde.org/kdf) - view disk usage
+- [kdf](https://apps.kde.org/kdf) (kdiskfree) - view disk usage
 - [kfind](https://apps.kde.org/kfind) - simple but fast file searching
-    - `mlocate` - search using mlocate index
-- [kgpg](https://apps.kde.org/kgpg) - frontend for GPG keys management
+    - `mlocate` - search using mlocate index <sup>(AUR only)</sup>
+- [kgpg](https://apps.kde.org/kgpg) - GUI application for GPG management
 - [kjournald](https://invent.kde.org/system/kjournald) - view and manage [journalctl](https://www.freedesktop.org/software/systemd/man/journalctl.html) logs
 - [ksystemlog](https://apps.kde.org/ksystemlog) - view and manage kernel, Xorg, and other system logs
 - [krusader](https://apps.kde.org/krusader) - twin-pannel file manager
@@ -141,7 +138,7 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
     - `konsolepart` - terminal support
     - `ktexteditor` - file editing support
 - [partitionmanager](https://apps.kde.org/partitionmanager) - *"[GParted](https://gparted.org) by KDE"*
-    - *Opt deps*: the same as opt deps for GParted (`pacman -Qi gparted`)
+    - *Opt deps*: the same as opt deps for GParted (`pacman -Si gparted`)
 - [sweeper](https://apps.kde.org/sweeper) - cache cleaner
 - [systemdgenie](https://invent.kde.org/system/systemdgenie) - control systemd services from GUI frontend
 - [yakuake](https://apps.kde.org/yakuake) - drop-down terminal
@@ -206,7 +203,6 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [kphotoalbum](https://apps.kde.org/kphotoalbum) - photo management tool (tags, collections, and more)
 - [okular](https://apps.kde.org/okular) - PDF reader on steroids
     - `ebook-tools` - mobi and epub support
-    - `kdegraphics-mobipocket` - mobi support
     - `unarchiver` or `unrar` - Comic Book support
 - [subtitlecomposer](https://apps.kde.org/subtitlecomposer) - subtitle editor
 
@@ -302,6 +298,5 @@ For detailed further instructions, please refer to [ArchWiki](https://wiki.archl
 - [protonup-qt](https://github.com/DavidoTek/ProtonUp-Qt) - install and manage [GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom), [Steam Proton](<https://en.wikipedia.org/wiki/Proton_(software)>), [Lutris](https://github.com/lutris/lutris) runners and much more
 - [qbittorrent](https://github.com/qbittorrent/qBittorrent) - you know what is this!
 - [media-downloader](https://github.com/mhogomchungu/media-downloader) - a cross-platform app for downloading media from a popular sites
-- [plasma-manager](https://github.com/nix-community/plasma-manager) <sup>(not an arch package)</sup> - Home Manager module for KDE Plasma
 - [mpris-discord-rpc](https://github.com/patryk-ku/mpris-discord-rpc) - self-explanatory. Not a KDE component nor made for KDE, but can integrate well with Haruna, Dragon, mpv and more, providing functional Discord RPC interface
 - [papirus-folders](https://github.com/PapirusDevelopmentTeam/papirus-folders) - custom folder color for Papirus icon theme. Also check [this](https://github.com/shvedes/awesome-kde/wiki/Make-your-folders-even-more-organized)
