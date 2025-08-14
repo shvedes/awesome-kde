@@ -20,11 +20,6 @@ Running this command will give you a list of all KDE Plasma package groups you w
 
 If you’d like to contribute to the development of this repository, feel free to open an issue or pull request.
 
-#### Support
-
-If you’d like to show your appreciation, leave a star on this repository and follow me on GitHub.  
-If you’d like to support me financially, please open an issue.
-
 ### Plasma Mobile
 
 #### System
