@@ -47,7 +47,7 @@ If you’d like to contribute to the development of this repository, feel free t
 - [konsole](https://apps.kde.org/konsole/) - the best terminal emulator in the world
 - [yakuake](https://apps.kde.org/yakuake/) - drop-down terminal
 - [systemmonitor](https://apps.kde.org/plasma-systemmonitor/) - Plasma's built-in system / resources monitor
-- [discvoer](https://apps.kde.org/discover/) - Plasma's built-in app store. Useless on Arch, unless you use Flatpaks
+- [discover](https://apps.kde.org/discover/) - Plasma's built-in app store. Useless on Arch, unless you use Flatpaks
 - [kwalletmanager](https://apps.kde.org/kwalletmanager5/) - password & secrets manager. It also stores WiFi passwords, which is convenient and secure
 - [kdf](https://apps.kde.org/kdf/) (kdiskfree) - disk usage statistics. Also provides KCM module for System Settings
 - [ksystemlog](https://apps.kde.org/ksystemlog/) - system log viewer
