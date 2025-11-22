@@ -79,13 +79,13 @@ If you’d like to contribute to the development of this repository, feel free t
 - [krename](https://apps.kde.org/krename/) - batch file renamer
 - [krusader](https://apps.kde.org/krusader/) - file manager
 - [smb4k](https://apps.kde.org/smb4k/) <sup>`development state`</sup> - advanced SAMBA explorer
-- [kfloppy](https://apps.kde.org/kfloppy/) - floppy disk formatter <sup>(man that's crazy)</sup>
+- [kfloppy](https://apps.kde.org/kfloppy/) - floppy disk formatter
 - [nota-git](https://apps.kde.org/nota/) </sup>`AUR`</sup> - simple text editor designed for KDE Plasma & Plasma Mobile
 - [karp-git](https://apps.kde.org/karp/) <sup>`AUR`</sup> <sup>`development state`</sup> - PDF arranger
-- [Hash-o-matic](https://apps.kde.org/hashomatic/) <sup>`no packages avaiable`<sup> - file hash verifier
+- [Hash-o-matic](https://apps.kde.org/hashomatic/) <sup>`no packages avaiable`</sup> - file hash verifier
 - [alpaka-git](https://apps.kde.org/alpaka/) <sup>`AUR`</sup> <sup>`development state`</sup> - [Ollama](https://github.com/ollama/ollama) client
 - [k3b](https://apps.kde.org/k3b/) - disc burning tool
-- [qrca](https://apps.kde.org/qrca/) - barcode scanner
+- [qrca](https://apps.kde.org/qrca/) - barcode scanner. Also allows to share wifi passwords via qr code
 - [kdeconnect](https://apps.kde.org/kdeconnect/) - Apple-like magic in terms of phone integration / synchronization
 - [krdc](https://apps.kde.org/krdc/) - remote desktop client
 - [krfb](https://apps.kde.org/krfb/) - remote desktop client (VNC)
@@ -214,10 +214,9 @@ If you’d like to contribute to the development of this repository, feel free t
     - `libjxl` - JPEG-XL format support
     - `libraw` - RAAW format support
     - `openjpeg2` - JPEG 2000 foramt support
-    - `openext` - EXR format support
-- `icoutils` - MS Windows executables thumbnails
+- `icoutils` - thumbnails for MS Windows executables / dll libraries
 - `kdenetwork-filesharing` - SAMBA integration for Dolphin
-- `purpose` - \*share\* context menu for Dolphin
+- `purpose` - the *Share* context menu for Dolphin
 - `arj`, `lrzip`, `lzop`, `7zip`, `unarchiver`, `unrar`, `zip`, `cpio`, `unarj`, `unace` - additional compression formats for Ark & Krusader
 - `faac`, `flac`, `lame`, `vorbis-tools` - additional audio formats for Audex
 - `fwupd` - update motherboard firmware directly from Discover (if supported)
@@ -225,7 +224,6 @@ If you’d like to contribute to the development of this repository, feel free t
 - `dosfstools`, `jfsutils`, `f2fs-tools`, `btrfs-progs`, `exfatprogs`, `ntfs-3g`, `udftools`, `xfsprogs`, `nilfs-utils`, `gpart`, `mtools` - filesystem support for PartitionManager
 - `pandoc`, `mathjax`, `cmark` - additional formats for Ghostwriter
 - `clang`, `git`, `python-lsp-server`, `qt6-declararive`, `qtkeychain-qt6`, `rust`, `texlab` - a set of plugins & LSP servers for Kate
-- `konsolepart` - adds konsole panel in some KDE apps (e.g. Okteta, Krusader)
 - `cdparanoia`, `cdrdao`, `cdrtools`, `dvd+rw-tools`, `emovix`, `vcdimager` - additional formats & extensions for K3b
 - `libvncserver`, `libssh`, `freerdp` - necessary libraries for remote desktop
 - `yt-dlp` - YouTube, Twitch, <you name it> streaming support for Haruna
@@ -236,6 +234,7 @@ If you’d like to contribute to the development of this repository, feel free t
 - `kirigami-addons`, `libetonyek`, `libvisio`, `libwpg`, `libwps`, `poppler`, `pstoedit`, `qqc2-desktop-style`, `qt6-webengine` - a set of plugins & extensions for Calligra
 - `kdnssd`, `kplotting`, `syndication`, `taglib` - a set of plugins & extensions for KTorrent
 - `kdepim-addons` - additional plugins & extensions for KDE PIM apps
+- `kunifiedpush` - push notifications functionality & KCM module
 
 ### Third Party
 
