@@ -7,24 +7,24 @@ X-KDE-Submenu=Convert to
 [Desktop Action convertToPng]
 Name=PNG
 Icon=viewimage
-Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh png %U
+Exec=/home/username/.local/bin/kde-convert-image png %U
 
 [Desktop Action convertToJpg]
 Name=JPG
 Icon=viewimage
-Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh jpg %U
+Exec=/home/username/.local/bin/kde-convert-image jpg %U
 
 [Desktop Action convertToJpeg]
 Name=JPEG
 Icon=viewimage
-Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh jpeg %U
+Exec=/home/username/.local/bin/kde-convert-image jpeg %U
 
 [Desktop Action convertToWebp]
 Name=WEBP
 Icon=viewimage
-Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh webp %U
+Exec=/home/username/.local/bin/kde-convert-image webp %U
 
 [Desktop Action convertToAvif]
 Name=AVIF
 Icon=viewimage
-Exec=/home/username/.local/bin/kio-servicemenus/convert-image.sh avif %U
+Exec=/home/username/.local/bin/kde-convert-image avif %U

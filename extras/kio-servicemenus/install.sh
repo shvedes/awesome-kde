@@ -5,10 +5,10 @@ export XDG_DATA_HOME="$HOME/.local/share"
 convert_image_script_url="https://raw.githubusercontent.com/shvedes/awesome-kde/refs/heads/main/extras/kio-servicemenus/scripts/convert-image.sh"
 convert_image_servicemenus_url="https://raw.githubusercontent.com/shvedes/awesome-kde/refs/heads/main/extras/kio-servicemenus/servicemenus/convert-image.desktop"
 
-scripts_dir="$HOME/.local/bin/kio-servicemenus"
-servicemenus_dir="$XDG_DATA_HOME/kio/servicemenus"
+scripts_dir="$HOME/.local/bin"
+servicemenus_dir="${XDG_DATA_HOME:-$HOME/.local/share/kio/servicemenus}/kio/servicemenus"
 
-dependencies=("kdialog" "magick" "git" "wget")
+dependencies=("kdialog" "magick" "wget")
 missing_deps=()
 
 for item in "${dependencies[@]}"; do
@@ -23,16 +23,15 @@ if [[ -n "${missing_deps[*]}" ]]; then
 fi
 
 echo "==> Creating directories"
-mkdir -p "$XDG_DATA_HOME/kio/servicemenus"
-mkdir -p "$HOME/.local/bin/kio-servicemenus"
+mkdir -p "$servicemenus_dir" "$scripts_dir"
 
 echo "==> Copying files"
-wget -q "$convert_image_script_url" -O "$scripts_dir/convert-image.sh"
-wget -q "$convert_image_servicemenus_url" -O "$servicemenus_dir/convert-image.desktop"
+wget -q -4 "$convert_image_script_url" -O "$scripts_dir/kde-convert-image"
+wget -q -4 "$convert_image_servicemenus_url" -O "$servicemenus_dir/kde-convert-image.desktop"
 
 echo "==> Setting things up"
-chmod +x "$scripts_dir/convert-image.sh"
-chmod +x "$servicemenus_dir/convert-image.desktop"
-sed -i "s/username/$(whoami)/" "$servicemenus_dir/convert-image.desktop"
+chmod +x "$scripts_dir/kde-convert-image"
+chmod +x "$servicemenus_dir/kde-convert-image.desktop"
+sed -i "s/username/$(whoami)/" "$servicemenus_dir/kde-convert-image.desktop"
 
 echo "==> Done"
