@@ -2,11 +2,11 @@
 
 export XDG_DATA_HOME="$HOME/.local/share"
 
-convert_image_script_url="https://raw.githubusercontent.com/shvedes/awesome-kde/refs/heads/main/extras/kio-servicemenus/scripts/convert-image.sh"
-convert_image_servicemenus_url="https://raw.githubusercontent.com/shvedes/awesome-kde/refs/heads/main/extras/kio-servicemenus/servicemenus/convert-image.desktop"
+convert_image_script_url="https://raw.githubusercontent.com/shvedes/awesome-kde/refs/heads/main/extras/kio-servicemenus/scripts/kde-convert-image"
+convert_image_servicemenus_url="https://raw.githubusercontent.com/shvedes/awesome-kde/refs/heads/main/extras/kio-servicemenus/servicemenus/kde-convert-image.desktop"
 
 scripts_dir="$HOME/.local/bin"
-servicemenus_dir="${XDG_DATA_HOME:-$HOME/.local/share/kio/servicemenus}/kio/servicemenus"
+servicemenus_dir="${XDG_DATA_HOME:-$HOME/.local/share}/kio/servicemenus"
 
 dependencies=("kdialog" "magick" "wget")
 missing_deps=()
