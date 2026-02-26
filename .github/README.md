@@ -20,6 +20,13 @@ Running this command will give you a list of all KDE Plasma package groups you w
 
 If you’d like to contribute to the development of this repository, feel free to open an issue or pull request.
 
+#### Credits
+
+If you find this repo useful, you might want to see the work of these people as well:
+
+- [francoism90/awesome-kde](https://github.com/francoism90/awesome-kde) (my inspiration)
+- [shalva97/kde-configuration-files](https://github.com/shalva97/kde-configuration-files)
+
 ### Plasma Mobile
 
 #### System
@@ -43,6 +50,7 @@ If you’d like to contribute to the development of this repository, feel free t
 
 #### System
 
+- [plasma-login-manager](https://invent.kde.org/plasma/plasma-login-manager) - the new generation SDDM replacement
 - [dolphin](https://apps.kde.org/dolphin/) - the best file manager in the world
 - [konsole](https://apps.kde.org/konsole/) - the best terminal emulator in the world
 - [yakuake](https://apps.kde.org/yakuake/) - drop-down terminal
@@ -51,7 +59,7 @@ If you’d like to contribute to the development of this repository, feel free t
 - [kwalletmanager](https://apps.kde.org/kwalletmanager5/) - password & secrets manager. It also stores WiFi passwords, which is convenient and secure
 - [kdf](https://apps.kde.org/kdf/) (kdiskfree) - disk usage statistics. Also provides KCM module for System Settings
 - [ksystemlog](https://apps.kde.org/ksystemlog/) - system log viewer
-- [khelpcenter](https://apps.kde.org/khelpcenter/) - basically the whole non-existent Plasma wiki pages, but onffline
+- [khelpcenter](https://apps.kde.org/khelpcenter/) - basically the entire Plasma wiki, but onffline
 - [systemdgenie](https://apps.kde.org/systemdgenie/) - [systemd](https://en.wikipedia.org/wiki/Systemd) management tool
 - [kjournald](https://apps.kde.org/kjournaldbrowser/) - system journal management tool
 - [spectacle](https://github.com/KDE/spectacle) - built-in screenshot / video capture utility
@@ -217,24 +225,96 @@ If you’d like to contribute to the development of this repository, feel free t
 - `icoutils` - thumbnails for MS Windows executables / dll libraries
 - `kdenetwork-filesharing` - SAMBA integration for Dolphin
 - `purpose` - the *Share* context menu for Dolphin
-- `arj`, `lrzip`, `lzop`, `7zip`, `unarchiver`, `unrar`, `zip`, `cpio`, `unarj`, `unace` - additional compression formats for Ark & Krusader
-- `faac`, `flac`, `lame`, `vorbis-tools` - additional audio formats for Audex
 - `fwupd` - update motherboard firmware directly from Discover (if supported)
 - `plocate` - alternative search indexer for KFind
-- `dosfstools`, `jfsutils`, `f2fs-tools`, `btrfs-progs`, `exfatprogs`, `ntfs-3g`, `udftools`, `xfsprogs`, `nilfs-utils`, `gpart`, `mtools` - filesystem support for PartitionManager
-- `pandoc`, `mathjax`, `cmark` - additional formats for Ghostwriter
-- `clang`, `git`, `python-lsp-server`, `qt6-declararive`, `qtkeychain-qt6`, `rust`, `texlab` - a set of plugins & LSP servers for Kate
-- `cdparanoia`, `cdrdao`, `cdrtools`, `dvd+rw-tools`, `emovix`, `vcdimager` - additional formats & extensions for K3b
-- `libvncserver`, `libssh`, `freerdp` - necessary libraries for remote desktop
 - `yt-dlp` - YouTube, Twitch, <you name it> streaming support for Haruna
 - `mediainfo` - extra file metadata
-- `bigsh0t`, `noise-suppression-for-voice`, `opencv`, `python-openai-whisper`, `python-srt_equalizer` - a set of plugins for Kdenlive
-- `krita-plugin-gmic`, `kseexpr`, `libheif`, `libjxl`, `libmypaint`, `poppler-qt5`, `python-pyqt5` - a set of plugins & extensions for Krita
-- `darktable`, `hugin`, `rawtherapee` - a set of plugins & extensions for Digikam
-- `kirigami-addons`, `libetonyek`, `libvisio`, `libwpg`, `libwps`, `poppler`, `pstoedit`, `qqc2-desktop-style`, `qt6-webengine` - a set of plugins & extensions for Calligra
-- `kdnssd`, `kplotting`, `syndication`, `taglib` - a set of plugins & extensions for KTorrent
-- `kdepim-addons` - additional plugins & extensions for KDE PIM apps
-- `kunifiedpush` - push notifications functionality & KCM module
+- Core libraries for **Remote Desktop**:
+    - `libvncserver`
+    - `freerdp`
+    - `libssh`
+- Additional archiving formats for [Ark](https://apps.kde.org/ark/) and [Krusader](https://apps.kde.org/krusader/):
+    - `arj`
+    - `lrzip`
+    - `lzop`
+    - `7zip`
+    - `unarchiver`
+    - `unrar`
+    - `zip`
+    - `cpio`
+    - `unarj`
+    - `unace`
+- Additional plugins and extensions for [Audex](https://apps.kde.org/audex/):
+    - `faac`
+    - `flac`
+    - `lame`
+    - `vorbis-tools`
+- Additional plugins and extensions for [Ghostwriter](https://apps.kde.org/ghostwriter/):
+    - `pandoc`
+    - `mathjax`
+    - `cmark`
+- Additional plugins and extensions for [K3b](https://apps.kde.org/k3b/):
+    - `cdparanoia`
+    - `cdrdao`
+    - `cdrtools`
+    - `dvd+rw-tools`
+    - `emovix`
+    - `vcdimager`
+- Additional plugins and extensions for [Kate](https://apps.kde.org/kate/):
+    - `clang`
+    - `git`
+    - `python-lsp-server`
+    - `qt6-declararive`
+    - `qtkeychain-qt6`
+    - `rust`
+    - `texlab`
+- Additional filesystem utils for [PartitionManager](https://apps.kde.org/partitionmanager/):
+    - `dosfstools`
+    - `jfsutils`
+    - `f2fs-tools`
+    - `btrfs-progs`
+    - `exfatprogs`
+    - `ntfs-3g`
+    - `udftools`
+    - `xfsprogs`
+    - `nilfs-utils`
+    - `gpart`
+    - `mtools`
+- Additional plugins and extensions for [Kdenlive](https://apps.kde.org/kdenlive/):
+    - `noise-suppression-for-voice`
+    - `python-openai-whisper`
+    - `python-srt_equalizer`
+    - `bigsh0t`
+    - `opencv`
+- Additional plugins and extensions for [Krita](https://apps.kde.org/krita/):
+    - `krita-plugin-gmic`
+    - `kseexpr`
+    - `libheif`
+    - `libjxl`
+    - `libmypaint`
+    - `poppler-qt5`
+    - `python-pyqt5`
+- Additional plugins and extensions for [DigiKam](https://apps.kde.org/digikam/):
+    - `darktable`
+    - `hugin`
+    - `rawtherapee`
+- Additional plugins and extensions for [Caligra](https://apps.kde.org/es/calligra/):
+    - `kirigami-addons`
+    - `libetonyek`
+    - `libvisio`
+    - `libwpg`
+    - `libwps`
+    - `poppler`
+    - `pstoedit`
+    - `qqc2-desktop-style`
+    - `qt6-webengine`a
+- Additional plugins and extensions for [Torrent](https://apps.kde.org/ktorrent/):
+    - `kdnssd`
+    - `kplotting`
+    - `syndication`
+    - `taglib`
+- `kdepim-addons` - additional plugins and extensions for KDE PIM apps
+- `kunifiedpush` - push notifications
 
 ### Third Party
 
