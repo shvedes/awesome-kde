@@ -34,6 +34,11 @@ If you find this repo useful, you might want to see the work of these people as 
 - [qmlkonsole](https://apps.kde.org/qmlkonsole/) - [konsole](https://apps.kde.org/konsole/), but designed for Plasma Mobile
 - [index-fm](https://apps.kde.org/index-fm/) - file manager
 
+#### Graphics
+
+- [kimagemapeditor](https://apps.kde.org/kimagemapeditor/) - editor of image maps
+- [kgraphviewer](https://apps.kde.org/kgraphviewer/) - Graphviz DOT graph file viewer
+
 #### Utilities
 
 - [krecorder](https://apps.kde.org/krecorder/) - simple voice recorder for KDE Plasma & Plasma Mobile
@@ -46,7 +51,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - [klevernotes](https://apps.kde.org/klevernotes/) - note taking app for KDE Plasma & Plasma Mobile
 - [calindori](https://apps.kde.org/calindori/) - calendar app designed for KDE Plasma & Plasma Mobile
 
-### GUI Applications
+### General
 
 #### System
 
@@ -66,6 +71,7 @@ If you find this repo useful, you might want to see the work of these people as 
 
 #### Utilities
 
+- [kbackup](https://apps.kde.org/kbackup/) - self-explanatory
 - [ark](https://apps.kde.org/ark/) - archive manager
 - [filelight](https://apps.kde.org/filelight/) - disk usage statistics
 - [kcalc](https://apps.kde.org/kcalc/) - a simple but powerful calculator
@@ -99,15 +105,26 @@ If you find this repo useful, you might want to see the work of these people as 
 - [krfb](https://apps.kde.org/krfb/) - remote desktop client (VNC)
 - [kontrast](https://apps.kde.org/kontrast/) - color contrast checker
 - [kdialog](https://develop.kde.org/docs/administration/kdialog/) - YAD & Zenity alternative
+- [kteatime](https://apps.kde.org/kteatime/) - timer for steeping tea 🙄
 
-#### Development
+#### Development & KDE SDK
 
 - [kompare](https://apps.kde.org/kompare/) - `diff` & `patch` frontend
-- [kcachegrind](https://apps.kde.org/kcachegrind/) - profile data visualization
-- [heaptrack](https://apps.kde.org/heaptrack/) - one more profiler
+- [heaptrack](https://apps.kde.org/heaptrack/) - memory profiler
 - [kdevelop](https://apps.kde.org/kdevelop/) <sup>`package group`</sup> - IDE
 - [kommit](https://apps.kde.org/kommit/) - git client
 - [codevis](https://apps.kde.org/codevis/) <sup>`development state`</sup> - code architecture visualizer
+- [massif-visualizer](https://apps.kde.org/massif_visualizer/) - massif data visualizer
+- [umbrello](https://apps.kde.org/umbrello/) - UML modelling tool and code generator
+- `kapptemplate` - KDE Template Generator
+- [kcachegrind](https://apps.kde.org/kcachegrind/) - visualization of performance profiling data
+- `kde-dev-scripts` - scripts and setting files useful during development of KDE software
+- [kde-dev-utils](https://apps.kde.org/kuiviewer/) - small utilities for developers using KDE/Qt libs/frameworks
+- `kdesdk-kio` - KDE SDK KIO slaves
+- `kdesdk-thumbnailers` - plugins for the thumbnailing system
+- [kirigami-gallery](https://apps.kde.org/kirigami2.gallery/) - gallery application built using Kirigami
+- [lokalize](https://apps.kde.org/lokalize/) - computer-aided translation system
+- `poxml` - DocBook XML files translator
 
 #### Multimedia / Graphics
 
@@ -163,6 +180,7 @@ If you find this repo useful, you might want to see the work of these people as 
 
 #### KDE PIM
 
+- [skrooge](https://apps.kde.org/skrooge) - personal finance manager
 - [korganizer](https://apps.kde.org/korganizer/) - calendar & task scheduler
 - [kmail](https://apps.kde.org/kmail2/) - email client
 - [zanshin](https://apps.kde.org/zanshin/) - To-Do management
@@ -189,8 +207,8 @@ If you find this repo useful, you might want to see the work of these people as 
 - `markdownpart` - native markdown integration / rendering across KDE apps
 - `kde-inotify-survey` - tooling for monitoring inotify limits
 - `flatpak-kcm` - KCM module for Flatpaks management. Installed by default with `plasma` package group
-- `kio-{extras,fuse,admin,gdrive}` - KIO addons
-- `xwaylandvideobridge` - utility to mirror Wayland screen to X applications. Useful for applications like Zoom
+- `kio-{extras,fuse,admin,gdrive,zeroconf}` - KIO addons
+- `xwaylandvideobridge` <sup>AUR</sup> - utility to mirror Wayland screen to X applications. Useful for applications like Zoom
 - `iio-sensor-proxy` - automatic screen rotation
 - `maliit-keyboard` - virtual keyboard
 - `power-profiles-daemon` - power management in Plasma. Requires enabled `power-profiles-daemon.service`. If Doesn't work, use `tuned{-ppd}` with `tuned{-ppd}.service` instead
@@ -220,7 +238,7 @@ If you find this repo useful, you might want to see the work of these people as 
     - `libavif` - AVIF format support
     - `libheif` - HEIF format support
     - `libjxl` - JPEG-XL format support
-    - `libraw` - RAAW format support
+    - `libraw` - RAW format support
     - `openjpeg2` - JPEG 2000 foramt support
 - `icoutils` - thumbnails for MS Windows executables / dll libraries
 - `kdenetwork-filesharing` - SAMBA integration for Dolphin
