@@ -46,7 +46,8 @@ PACKAGES_CORE=(
     gpart mtools kdnssd kplotting
     syndication taglib kunifiedpush
     power-profiles-daemon
-    sshfs krdc krfb
+    sshfs krdc krdp krfb
+
     # applications
     konsole dolphin
     ark khelpcenter
