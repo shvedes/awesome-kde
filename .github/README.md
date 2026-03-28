@@ -383,6 +383,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - [ollama-control](https://github.com/imoize/plasmoid-ollamacontrol) <sup>`no packages avaiable`</sup> - control ollama models from the taskbar
 - [plasmoid-dockio](https://github.com/imoize/plasmoid-dockio) <sup>`no packages avaiable`</sup> - manage docker containters directly from taskbar
 - [kde-material-you-colors](https://github.com/luisbocanegra/kde-material-you-colors) <sup>`AUR`</sup> - Material Design 3 color palette generator for KDE
+- [dictee](https://github.com/rcspam/dictee) - Push-to-talk voice dictation with KDE Plasma 6 plasmoid, PyQt6 setup wizard, and tray icon. 4 offline ASR backends, post-processing pipeline, translation. 100% local, 25+ languages.
 - [ditto-menu](https://github.com/adhec/dittoMenuKDE) <sup>`no packages avaiable`</sup> - Windows 11-like application launcher
 - [chat-qt](https://github.com/DenysMb/ChatQT-Plasmoid) <sup>`no packages avaiable`</sup> - chat with ollama models directly from taskbar
 
