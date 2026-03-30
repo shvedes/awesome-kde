@@ -20,169 +20,169 @@ trap 'echo; echo -e "${RED}Interrupted.${RESET}"; exit 130' INT TERM HUP
 # ---------------------------------------------------------------------------
 
 PACKAGES_CORE=(
-    svgpart markdownpart kio kio-extras kio-admin
-    kio-fuse kio-gdrive kio-zeroconf
-    orca cryfs gocryptfs ripgrep ripgrep-all
-    hunspell-en_us sshfs qt6-tools kcron
-    dolphin-plugins kup bup rsync cups
-    system-config-printer keditbookmarks
-    qt5-imageformats qt6-imageformats
-    kdegraphics-mobipocket kimageformats
-    colord-kde ffmpegthumbs
-    kdegraphics-thumbnailers
-    imath jxrlib karchive
-    libavif libheif libjxl
-    libraw openjpeg2 icoutils
-    kdenetwork-filesharing
-    purpose fwupd plocate
-    yt-dlp mediainfo libvncserver
-    freerdp libssh arj lrzip
-    lzop 7zip unarchiver unrar
-    zip cpio unarj unace
-    faac flac lame vorbis-tools
-    dosfstools jfsutils f2fs-tools
-    btrfs-progs exfatprogs ntfs-3g
-    udftools xfsprogs nilfs-utils
-    gpart mtools kdnssd kplotting
-    syndication taglib kunifiedpush
-    power-profiles-daemon
-    sshfs krdc krdp krfb
+  plasma svgpart markdownpart kio kio-extras kio-admin
+  kio-fuse kio-gdrive kio-zeroconf
+  orca cryfs gocryptfs ripgrep ripgrep-all
+  hunspell-en_us sshfs qt6-tools kcron
+  dolphin-plugins kup bup rsync cups
+  system-config-printer keditbookmarks
+  qt5-imageformats qt6-imageformats
+  kdegraphics-mobipocket kimageformats
+  colord-kde ffmpegthumbs
+  kdegraphics-thumbnailers
+  imath jxrlib karchive
+  libavif libheif libjxl
+  libraw openjpeg2 icoutils
+  kdenetwork-filesharing
+  purpose fwupd plocate
+  yt-dlp mediainfo libvncserver
+  freerdp libssh arj lrzip
+  lzop 7zip unarchiver unrar
+  zip cpio unarj unace
+  faac flac lame vorbis-tools
+  dosfstools jfsutils f2fs-tools
+  btrfs-progs exfatprogs ntfs-3g
+  udftools xfsprogs nilfs-utils
+  gpart mtools kdnssd kplotting
+  syndication taglib kunifiedpush
+  power-profiles-daemon
+  sshfs krdc krdp krfb
 
-    # applications
-    konsole dolphin
-    ark khelpcenter
-    kate kcalc kfind
-    kolourpaint
-    gwenview haruna
-    elisa kclock
+  # applications
+  konsole dolphin
+  ark khelpcenter
+  kate kcalc kfind
+  kolourpaint
+  gwenview haruna
+  elisa kclock
 )
 
 PACKAGES_GRAPHICS=(
-    kdenlive
-    kamera kcolorchooser
-    kgraphviewer kimagemapeditor
+  kdenlive
+  kamera kcolorchooser
+  kgraphviewer kimagemapeditor
 )
 
 PACKAGES_OFFICE=(
-    # libreoffice-fresh
-    okular calligra arianna
-    ghostscript tesseract
-    tesseract-data-eng
-    skanpage skanlite
-    kile
+  # libreoffice-fresh
+  okular calligra arianna
+  ghostscript tesseract
+  tesseract-data-eng
+  skanpage skanlite
+  kile
 )
 
 PACKAGES_MULTIMEDIA=(
-    audex audiocd-kio
-    digikam kasts
-    kamoso kwave
-    telly-skout
-    dragon juk
-    plasmatube
-    koko kmix
-    audiotube
-    kwave
+  audex audiocd-kio
+  digikam kasts
+  kamoso kwave
+  telly-skout
+  dragon juk
+  plasmatube
+  koko kmix
+  audiotube
+  kwave
 )
 
 PACKAGES_INTERNET=(
-    kdeconnect
-    tokodon kget
-    ktorrent falkon
-    alligator angelfish
-    konqueror konversation
-    neochat signon-kwallet-extension
+  kdeconnect
+  tokodon kget
+  ktorrent falkon
+  alligator angelfish
+  konqueror konversation
+  neochat signon-kwallet-extension
 )
 
 PACKAGES_PIM=(
-    akonadi-calendar-tools
-    akonadi-import-wizard
-    grantlee-editor
-    akonadiconsole
-    kwalletmanager
-    akregator
-    itinerary
-    kaddressbook
-    kalarm
-    kdepim-addons
-    kleopatra
-    kmail
-    kmail-account-wizard
-    kontact
-    korganizer
-    mbox-importer
-    merkuro
-    pim-data-exporter
-    pim-sieve-editor
-    zanshin
+  akonadi-calendar-tools
+  akonadi-import-wizard
+  grantlee-editor
+  akonadiconsole
+  kwalletmanager
+  akregator
+  itinerary
+  kaddressbook
+  kalarm
+  kdepim-addons
+  kleopatra
+  kmail
+  kmail-account-wizard
+  kontact
+  korganizer
+  mbox-importer
+  merkuro
+  pim-data-exporter
+  pim-sieve-editor
+  zanshin
 )
 
 PACKAGES_DEVELOPMENT=(
-    kdevelop kdevelop-php
-    kdevelop-python kompare
-    umbrello kcachegrind
-    massif-visualizer git
-    heaptrack clang
-    cmake extra-cmake-modules
-    gdb kapptemplate
-    kcachegrind kde-dev-scripts
-    kde-dev-utils kdesdk-kio
-    kdesdk-thumbnailers kirigami-gallery
-    lokalize poxml
-    kdebugsettings
+  kdevelop kdevelop-php
+  kdevelop-python kompare
+  umbrello kcachegrind
+  massif-visualizer git
+  heaptrack clang
+  cmake extra-cmake-modules
+  gdb kapptemplate
+  kcachegrind kde-dev-scripts
+  kde-dev-utils kdesdk-kio
+  kdesdk-thumbnailers kirigami-gallery
+  lokalize poxml
+  kdebugsettings
 )
 
 PACKAGES_SYSTEM=(
-    partitionmanager
-    filelight
-    isoimagewriter
-    ksystemlog
-    kgpg
-    kdf
-    kjournald
-    systemdgenie
+  partitionmanager
+  filelight
+  isoimagewriter
+  ksystemlog
+  kgpg
+  kdf
+  kjournald
+  systemdgenie
 )
 
 PACKAGES_GAMES=(
-    bomber bovo granatier
-    kajongg kapman katomic
-    kblackbox kblocks kbounce
-    kbreakout kdiamond kfourinline
-    kgoldrunner kigo killbots
-    kiriki kjumpingcube klickety
-    klines kmahjongg kmines
-    knavalbattle knetwalk knights
-    kolf kollision konquest
-    kpat kreversi kshisen
-    ksirk ksnakeduel kspaceduel
-    ksquares ksudoku ktuberling
-    kubrick lskat palapeli
-    picmi skladnik
+  bomber bovo granatier
+  kajongg kapman katomic
+  kblackbox kblocks kbounce
+  kbreakout kdiamond kfourinline
+  kgoldrunner kigo killbots
+  kiriki kjumpingcube klickety
+  klines kmahjongg kmines
+  knavalbattle knetwalk knights
+  kolf kollision konquest
+  kpat kreversi kshisen
+  ksirk ksnakeduel kspaceduel
+  ksquares ksudoku ktuberling
+  kubrick lskat palapeli
+  picmi skladnik
 )
 
 PACKAGES_ACCESSIBILITY=(
-    accessibility-inspector
-    kmousetool kmouth
+  accessibility-inspector
+  kmousetool kmouth
 )
 
 PACKAGES_EDUCATION=(
-    artikulate blinken cantor
-    kalgebra kalzium kanagram
-    kbruch kgeography khangman
-    kig kiten klettres
-    kmplot ktouch kturtle
-    kwordquiz marble minuet
-    parley rocs step
+  artikulate blinken cantor
+  kalgebra kalzium kanagram
+  kbruch kgeography khangman
+  kig kiten klettres
+  kmplot ktouch kturtle
+  kwordquiz marble minuet
+  parley rocs step
 )
 
 PACKAGES_UTILITIES=(
-    kontrast francis
-    qrca kcharselect
-    keysmith sweeper
+  kontrast francis
+  qrca kcharselect
+  keysmith sweeper
 )
 
 # systemd units — parallel to PACKAGES_* arrays; empty arrays are skipped automatically.
-SYSTEM_UNITS_CORE=( cups.socket )
-USER_UNITS_CORE=( app-org.kde.krdpserver.service )
+SYSTEM_UNITS_CORE=(cups.socket)
+USER_UNITS_CORE=(app-org.kde.krdpserver.service)
 
 SYSTEM_UNITS_GRAPHICS=()
 USER_UNITS_GRAPHICS=()
@@ -222,7 +222,7 @@ USER_UNITS_UTILITIES=()
 # ---------------------------------------------------------------------------
 
 declare -A SELECTED_CATEGORIES
-NUM_CATEGORIES=0  # plain integer — avoids set -e + empty assoc-array expansion bugs
+NUM_CATEGORIES=0 # plain integer — avoids set -e + empty assoc-array expansion bugs
 OPT_ALL=false
 OPT_YES=false
 OPT_DRY_RUN=false
@@ -236,82 +236,89 @@ _SPINNER_PID=""
 # ---------------------------------------------------------------------------
 
 _on_exit() {
-    local code=${1:-0}
-    if [[ $code -ne 0 && $code -ne 130 ]]; then
-        echo "${RED}Script exited unexpectedly (exit code $code).${RESET}" >&2
-    fi
+  local code=${1:-0}
+  if [[ $code -ne 0 && $code -ne 130 ]]; then
+    echo "${RED}Script exited unexpectedly (exit code $code).${RESET}" >&2
+  fi
 }
 
 _die() {
-    echo "${RED}Error:${RESET} $*" >&2
-    exit 1
+  echo "${RED}Error:${RESET} $*" >&2
+  exit 1
 }
 
-_info()    { echo "${CYAN}=>${RESET} $*"; }
+_info() { echo "${CYAN}=>${RESET} $*"; }
 _success() { echo "${GREEN}[OK]${RESET} $*"; }
-_warn()    { echo "${YELLOW}Warning:${RESET} $*" >&2; }
-_section() { echo; echo "${BOLD}${BLUE}$*${RESET}"; echo "${GRAY}$(printf '─%.0s' {1..60})${RESET}"; }
+_warn() { echo "${YELLOW}Warning:${RESET} $*" >&2; }
+_section() {
+  echo
+  echo "${BOLD}${BLUE}$*${RESET}"
+  echo "${GRAY}$(printf '─%.0s' {1..60})${RESET}"
+}
 
 _spinner_start() {
-    # Prints msg and animates a spinner on the same line until _spinner_stop is called.
-    local msg="$1"
-    _SPINNER_PID=""
-    ( i=0
-      chars='|/-\'
-      while true; do
-          printf "\r\033[K%s %s" "$msg" "${chars:$((i % 4)):1}"
-          i=$((i + 1))
-          sleep 0.1
-      done
-    ) &
-    _SPINNER_PID=$!
+  # Prints msg and animates a spinner on the same line until _spinner_stop is called.
+  local msg="$1"
+  _SPINNER_PID=""
+  (
+    i=0
+    chars='|/-\'
+    while true; do
+      printf "\r\033[K%s %s" "$msg" "${chars:$((i % 4)):1}"
+      i=$((i + 1))
+      sleep 0.1
+    done
+  ) &
+  _SPINNER_PID=$!
 }
 
 _spinner_stop() {
-    if [[ -n "${_SPINNER_PID:-}" ]]; then
-        kill "$_SPINNER_PID" 2>/dev/null
-        wait "$_SPINNER_PID" 2>/dev/null || true
-        _SPINNER_PID=""
-        printf "\r\033[K"
-    fi
+  if [[ -n "${_SPINNER_PID:-}" ]]; then
+    kill "$_SPINNER_PID" 2>/dev/null
+    wait "$_SPINNER_PID" 2>/dev/null || true
+    _SPINNER_PID=""
+    printf "\r\033[K"
+  fi
 }
 
-
 _ask_yes_no() {
-    local default="${1:-Y}"
-    local message="$2"
-    local input hint
+  local default="${1:-Y}"
+  local message="$2"
+  local input hint
 
-    default="${default^^}"
-    case "$default" in
-        Y) hint="(Y/n)" ;;
-        N) hint="(y/N)" ;;
-        *) hint="(Y/n)"; default="Y" ;;
+  default="${default^^}"
+  case "$default" in
+  Y) hint="(Y/n)" ;;
+  N) hint="(y/N)" ;;
+  *)
+    hint="(Y/n)"
+    default="Y"
+    ;;
+  esac
+
+  while true; do
+    printf "%s %s: " "$message" "$hint"
+    read -r input
+
+    [[ -z "$input" ]] && input="$default"
+
+    case "$input" in
+    [Yy][Ee][Ss] | [Yy]) return 0 ;;
+    [Nn][Oo] | [Nn]) return 1 ;;
+    *)
+      printf "\r\e[K"
+      ;;
     esac
-
-    while true; do
-        printf "%s %s: " "$message" "$hint"
-        read -r input
-
-        [[ -z "$input" ]] && input="$default"
-
-        case "$input" in
-            [Yy][Ee][Ss]|[Yy]) return 0 ;;
-            [Nn][Oo]|[Nn])     return 1 ;;
-            *)
-                printf "\r\e[K"
-                ;;
-        esac
-    done
+  done
 }
 
 # Safe counter increment — avoids the set -e trap where ((x++)) returns 1 when x==0.
 _select_category() {
-    local cat="$1"
-    if [[ -z "${SELECTED_CATEGORIES[$cat]+_}" ]]; then
-        SELECTED_CATEGORIES["$cat"]=1
-        NUM_CATEGORIES=$((NUM_CATEGORIES + 1))
-    fi
+  local cat="$1"
+  if [[ -z "${SELECTED_CATEGORIES[$cat]+_}" ]]; then
+    SELECTED_CATEGORIES["$cat"]=1
+    NUM_CATEGORIES=$((NUM_CATEGORIES + 1))
+  fi
 }
 
 # ---------------------------------------------------------------------------
@@ -321,148 +328,148 @@ _select_category() {
 # Emit all packages for a category, filtering blanks and comments.
 # Handles hyphenated names: games → PACKAGES_GAMES
 _get_category_packages() {
-    local cat="$1"
-    local varname
-    varname="PACKAGES_${cat^^}"
-    varname="${varname//-/_}"
-    local pkgvar="${varname}[@]"
-    local pkg
-    for pkg in "${!pkgvar}"; do
-        [[ -z "$pkg" || "$pkg" == \#* ]] && continue
-        printf '%s\n' "$pkg"
-    done
+  local cat="$1"
+  local varname
+  varname="PACKAGES_${cat^^}"
+  varname="${varname//-/_}"
+  local pkgvar="${varname}[@]"
+  local pkg
+  for pkg in "${!pkgvar}"; do
+    [[ -z "$pkg" || "$pkg" == \#* ]] && continue
+    printf '%s\n' "$pkg"
+  done
 }
 
 # Emit every package that would be installed (all selected categories)
 _all_selected_packages() {
-    local cat
-    for cat in "${!SELECTED_CATEGORIES[@]}"; do
-        _get_category_packages "$cat"
-    done
+  local cat
+  for cat in "${!SELECTED_CATEGORIES[@]}"; do
+    _get_category_packages "$cat"
+  done
 }
 
 # Print packages in fixed-width columns, wrapping at 60 chars.
 # Column width = longest package name + 1 (single-space separator).
 # Reads newline-separated package names from stdin.
 _print_columns() {
-    local -a pkgs=()
-    local pkg
-    while IFS= read -r pkg; do
-        [[ -n "$pkg" ]] && pkgs+=("$pkg")
-    done
+  local -a pkgs=()
+  local pkg
+  while IFS= read -r pkg; do
+    [[ -n "$pkg" ]] && pkgs+=("$pkg")
+  done
 
-    [[ ${#pkgs[@]} -eq 0 ]] && return 0
+  [[ ${#pkgs[@]} -eq 0 ]] && return 0
 
-    local max_len=0
-    for pkg in "${pkgs[@]}"; do
-        [[ ${#pkg} -gt $max_len ]] && max_len=${#pkg}
-    done
+  local max_len=0
+  for pkg in "${pkgs[@]}"; do
+    [[ ${#pkg} -gt $max_len ]] && max_len=${#pkg}
+  done
 
-    local col_width=$(( max_len + 1 ))
-    local num_cols=$(( 60 / col_width ))
-    [[ $num_cols -lt 1 ]] && num_cols=1
+  local col_width=$((max_len + 1))
+  local num_cols=$((60 / col_width))
+  [[ $num_cols -lt 1 ]] && num_cols=1
 
-    local col=0
-    for pkg in "${pkgs[@]}"; do
-        if [[ $col -eq $((num_cols - 1)) ]]; then
-            # Last column in the row: no trailing padding, just a newline
-            printf '%s\n' "$pkg"
-            col=0
-        else
-            printf "%-*s" "$col_width" "$pkg"
-            col=$(( col + 1 ))
-        fi
-    done
-    # If the last row was incomplete, close it
-    if [[ $col -gt 0 ]]; then
-        printf '\n'
+  local col=0
+  for pkg in "${pkgs[@]}"; do
+    if [[ $col -eq $((num_cols - 1)) ]]; then
+      # Last column in the row: no trailing padding, just a newline
+      printf '%s\n' "$pkg"
+      col=0
+    else
+      printf "%-*s" "$col_width" "$pkg"
+      col=$((col + 1))
     fi
+  done
+  # If the last row was incomplete, close it
+  if [[ $col -gt 0 ]]; then
+    printf '\n'
+  fi
 }
 
 _install_packages() {
-    local packages=("$@")
-    local to_install=()
-    local pkg
+  local packages=("$@")
+  local to_install=()
+  local pkg
 
-    for pkg in "${packages[@]}"; do
-        [[ -z "$pkg" || "$pkg" == \#* ]] && continue
-        local excluded=false ex
-        for ex in "${EXCLUDE_PACKAGES[@]+"${EXCLUDE_PACKAGES[@]}"}"; do
-            [[ "$pkg" == "$ex" ]] && excluded=true && break
-        done
-        $excluded && continue
-        to_install+=("$pkg")
+  for pkg in "${packages[@]}"; do
+    [[ -z "$pkg" || "$pkg" == \#* ]] && continue
+    local excluded=false ex
+    for ex in "${EXCLUDE_PACKAGES[@]+"${EXCLUDE_PACKAGES[@]}"}"; do
+      [[ "$pkg" == "$ex" ]] && excluded=true && break
     done
+    $excluded && continue
+    to_install+=("$pkg")
+  done
 
-    [[ ${#to_install[@]} -eq 0 ]] && return 0
+  [[ ${#to_install[@]} -eq 0 ]] && return 0
 
-    local total=${#to_install[@]}
-    local current=0
-    local failed=()
+  local total=${#to_install[@]}
+  local current=0
+  local failed=()
 
-    for pkg in "${to_install[@]}"; do
-        current=$((current + 1))
-        if [[ "$OPT_DRY_RUN" == true ]]; then
-            printf "\r\033[KInstalling ${GRAY}%s${RESET} [%d/%d]" "$pkg" "$current" "$total"
-            sleep 0.02
-        else
-            _spinner_start "Installing ${GRAY}${pkg}${RESET} [${current}/${total}]"
-            if ! sudo pacman --noconfirm --needed -S "$pkg" &>/dev/null; then
-                failed+=("$pkg")
-                _spinner_stop
-                printf "${YELLOW}[!!]${RESET}${GRAY}%s${RESET} — package not found or failed to install\n" "$pkg"
-            else
-                _spinner_stop
-            fi
-        fi
-    done
-
-    printf "\r\033[K"
-
-    if [[ ${#failed[@]} -gt 0 ]]; then
-        _warn "The following packages could not be installed: ${failed[*]}"
+  for pkg in "${to_install[@]}"; do
+    current=$((current + 1))
+    if [[ "$OPT_DRY_RUN" == true ]]; then
+      printf "\r\033[KInstalling ${GRAY}%s${RESET} [%d/%d]" "$pkg" "$current" "$total"
+      sleep 0.02
+    else
+      _spinner_start "Installing ${GRAY}${pkg}${RESET} [${current}/${total}]"
+      if ! sudo pacman --noconfirm --needed -S "$pkg" &>/dev/null; then
+        failed+=("$pkg")
+        _spinner_stop
+        printf "${YELLOW}[!!]${RESET}${GRAY}%s${RESET} — package not found or failed to install\n" "$pkg"
+      else
+        _spinner_stop
+      fi
     fi
+  done
+
+  printf "\r\033[K"
+
+  if [[ ${#failed[@]} -gt 0 ]]; then
+    _warn "The following packages could not be installed: ${failed[*]}"
+  fi
 }
 
 _enable_units() {
-    local scope="$1"  # "system" or "user"
-    shift
-    local units=("$@")
-    local unit
+  local scope="$1" # "system" or "user"
+  shift
+  local units=("$@")
+  local unit
 
-    for unit in "${units[@]}"; do
-        [[ -z "$unit" ]] && continue
-        if [[ "$OPT_DRY_RUN" == true ]]; then
-            echo "${YELLOW}[dry-run]${RESET} would enable $scope unit: $unit"
-        else
-            if [[ "$scope" == "user" ]]; then
-                systemctl --user enable "$unit" 2>/dev/null \
-                    && echo "${GREEN}[OK]${RESET} Enabled user unit: ${BLUE}$unit${RESET}" \
-                    || _warn "Failed to enable user unit: $unit"
-            else
-                sudo systemctl enable "$unit" 2>/dev/null \
-                    && echo "${GREEN}[OK]${RESET} Enabled system unit: ${BLUE}$unit${RESET}" \
-                    || _warn "Failed to enable system unit: $unit"
-            fi
-        fi
-    done
+  for unit in "${units[@]}"; do
+    [[ -z "$unit" ]] && continue
+    if [[ "$OPT_DRY_RUN" == true ]]; then
+      echo "${YELLOW}[dry-run]${RESET} would enable $scope unit: $unit"
+    else
+      if [[ "$scope" == "user" ]]; then
+        systemctl --user enable "$unit" 2>/dev/null &&
+          echo "${GREEN}[OK]${RESET} Enabled user unit: ${BLUE}$unit${RESET}" ||
+          _warn "Failed to enable user unit: $unit"
+      else
+        sudo systemctl enable "$unit" 2>/dev/null &&
+          echo "${GREEN}[OK]${RESET} Enabled system unit: ${BLUE}$unit${RESET}" ||
+          _warn "Failed to enable system unit: $unit"
+      fi
+    fi
+  done
 }
 
 _list_categories() {
-    echo "${BOLD}Available categories:${RESET}"
-    echo
-    printf "  ${CYAN}%-15s${RESET} %s\n" "core"          "Core KDE libraries, extensions & applications"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "graphics"      "Image/video editors, color tools, viewers"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "office"        "Document editors, viewers, productivity tools"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "multimedia"    "Audio/video players, editors, photo management"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "internet"      "Browsers, download managers, remote desktop, KDE Connect"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "pim"           "Personal information management: mail, calendar, contacts"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "development"   "IDEs, debuggers, compilers, dev tools"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "system"        "System monitoring, disk management, maintenance"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "games"         "Games and gaming utilities"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "accessibility"  "Accessibility tools and assistive technologies"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "education"     "Educational software and tools"
-    printf "  ${CYAN}%-15s${RESET} %s\n" "utilities"     "Miscellaneous desktop utilities"
+  echo "${BOLD}Available categories:${RESET}"
+  echo
+  printf "  ${CYAN}%-15s${RESET} %s\n" "core" "Core KDE libraries, extensions & applications"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "graphics" "Image/video editors, color tools, viewers"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "office" "Document editors, viewers, productivity tools"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "multimedia" "Audio/video players, editors, photo management"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "internet" "Browsers, download managers, remote desktop, KDE Connect"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "pim" "Personal information management: mail, calendar, contacts"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "development" "IDEs, debuggers, compilers, dev tools"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "system" "System monitoring, disk management, maintenance"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "games" "Games and gaming utilities"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "accessibility" "Accessibility tools and assistive technologies"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "education" "Educational software and tools"
+  printf "  ${CYAN}%-15s${RESET} %s\n" "utilities" "Miscellaneous desktop utilities"
 }
 
 # ---------------------------------------------------------------------------
@@ -470,18 +477,18 @@ _list_categories() {
 # ---------------------------------------------------------------------------
 
 _show_packages() {
-    local cat
-    for cat in "${!SELECTED_CATEGORIES[@]}"; do
-        _section "Category: ${CYAN}${cat}${RESET}"
-        local pkgs
-        pkgs="$(_get_category_packages "$cat" | sort)"
-        if [[ -z "$pkgs" ]]; then
-            echo "  ${GRAY}(no packages defined yet)${RESET}"
-        else
-            echo "$pkgs" | _print_columns
-        fi
-    done
-    echo
+  local cat
+  for cat in "${!SELECTED_CATEGORIES[@]}"; do
+    _section "Category: ${CYAN}${cat}${RESET}"
+    local pkgs
+    pkgs="$(_get_category_packages "$cat" | sort)"
+    if [[ -z "$pkgs" ]]; then
+      echo "  ${GRAY}(no packages defined yet)${RESET}"
+    else
+      echo "$pkgs" | _print_columns
+    fi
+  done
+  echo
 }
 
 # ---------------------------------------------------------------------------
@@ -489,30 +496,30 @@ _show_packages() {
 # ---------------------------------------------------------------------------
 
 _validate_excludes() {
-    [[ ${#EXCLUDE_PACKAGES[@]} -eq 0 ]] && return 0
+  [[ ${#EXCLUDE_PACKAGES[@]} -eq 0 ]] && return 0
 
-    local -A known=()
-    local pkg
-    while IFS= read -r pkg; do
-        known["$pkg"]=1
-    done < <(_all_selected_packages)
+  local -A known=()
+  local pkg
+  while IFS= read -r pkg; do
+    known["$pkg"]=1
+  done < <(_all_selected_packages)
 
-    local bad=()
-    for pkg in "${EXCLUDE_PACKAGES[@]}"; do
-        if [[ -z "${known[$pkg]+_}" ]]; then
-            bad+=("$pkg")
-        fi
-    done
-
-    if [[ ${#bad[@]} -gt 0 ]]; then
-        _warn "The following packages passed to --exclude do not appear in the selected categories:"
-        for pkg in "${bad[@]}"; do
-            echo "${RED}[!!]${RESET}  ${GRAY}${pkg}${RESET}"
-        done
-        echo
-        echo "Run ${CYAN}${0##*/} --show-packages --category <CAT>${RESET} to see valid package names."
-        exit 1
+  local bad=()
+  for pkg in "${EXCLUDE_PACKAGES[@]}"; do
+    if [[ -z "${known[$pkg]+_}" ]]; then
+      bad+=("$pkg")
     fi
+  done
+
+  if [[ ${#bad[@]} -gt 0 ]]; then
+    _warn "The following packages passed to --exclude do not appear in the selected categories:"
+    for pkg in "${bad[@]}"; do
+      echo "${RED}[!!]${RESET}  ${GRAY}${pkg}${RESET}"
+    done
+    echo
+    echo "Run ${CYAN}${0##*/} --show-packages --category <CAT>${RESET} to see valid package names."
+    exit 1
+  fi
 }
 
 # ---------------------------------------------------------------------------
@@ -520,7 +527,7 @@ _validate_excludes() {
 # ---------------------------------------------------------------------------
 
 _show_help() {
-    cat <<EOF
+  cat <<EOF
 ${BOLD}Usage:${RESET}
   ${0##*/} --category <CAT...> [OPTIONS]
   ${0##*/} --all [OPTIONS]
@@ -574,84 +581,86 @@ EOF
 _valid_categories='core|graphics|office|multimedia|internet|pim|development|system|games|accessibility|education|utilities'
 
 _is_category() {
-    local val="$1"
-    case "$val" in
-        core|graphics|office|multimedia|internet|pim|development|system|games|accessibility|education|utilities)
-            return 0 ;;
-        *)
-            return 1 ;;
-    esac
+  local val="$1"
+  case "$val" in
+  core | graphics | office | multimedia | internet | pim | development | system | games | accessibility | education | utilities)
+    return 0
+    ;;
+  *)
+    return 1
+    ;;
+  esac
 }
 
 _parse_args() {
-    while [[ $# -gt 0 ]]; do
-        case "$1" in
-            -h|--help)
-                _show_help
-                exit 0
-                ;;
-            -l|--list)
-                _list_categories
-                exit 0
-                ;;
-            -a|--all)
-                OPT_ALL=true
-                ;;
-            -y|--yes)
-                OPT_YES=true
-                ;;
-            -n|--dry-run)
-                OPT_DRY_RUN=true
-                ;;
-            --no-units)
-                OPT_NO_UNITS=true
-                ;;
-            --show-packages)
-                OPT_SHOW_PACKAGES=true
-                ;;
-            --category)
-                [[ $# -lt 2 ]] && _die "--category requires at least one category name."
-                shift
-                local _cat_consumed=0
-                while [[ $# -gt 0 && ! "$1" =~ ^- ]]; do
-                    if _is_category "$1"; then
-                        _select_category "$1"
-                        _cat_consumed=$((_cat_consumed + 1))
-                        shift
-                    else
-                        _die "Unknown category '$1'. Run '${0##*/} --list' for valid categories."
-                    fi
-                done
-                [[ $_cat_consumed -eq 0 ]] && _die "--category requires at least one valid category name."
-                continue
-                ;;
-            --exclude)
-                [[ $# -lt 2 ]] && _die "--exclude requires at least one package name."
-                shift
-                while [[ $# -gt 0 && ! "$1" =~ ^- ]]; do
-                    _is_category "$1" && break
-                    EXCLUDE_PACKAGES+=("$1")
-                    shift
-                done
-                [[ ${#EXCLUDE_PACKAGES[@]} -eq 0 ]] && _die "--exclude requires at least one package name."
-                continue
-                ;;
-            -*)
-                _die "Unknown option: $1  (try --help)"
-                ;;
-            *)
-                _die "Unknown argument: '$1'. Use --category to select categories, or --help for usage."
-                ;;
-        esac
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+    -h | --help)
+      _show_help
+      exit 0
+      ;;
+    -l | --list)
+      _list_categories
+      exit 0
+      ;;
+    -a | --all)
+      OPT_ALL=true
+      ;;
+    -y | --yes)
+      OPT_YES=true
+      ;;
+    -n | --dry-run)
+      OPT_DRY_RUN=true
+      ;;
+    --no-units)
+      OPT_NO_UNITS=true
+      ;;
+    --show-packages)
+      OPT_SHOW_PACKAGES=true
+      ;;
+    --category)
+      [[ $# -lt 2 ]] && _die "--category requires at least one category name."
+      shift
+      local _cat_consumed=0
+      while [[ $# -gt 0 && ! "$1" =~ ^- ]]; do
+        if _is_category "$1"; then
+          _select_category "$1"
+          _cat_consumed=$((_cat_consumed + 1))
+          shift
+        else
+          _die "Unknown category '$1'. Run '${0##*/} --list' for valid categories."
+        fi
+      done
+      [[ $_cat_consumed -eq 0 ]] && _die "--category requires at least one valid category name."
+      continue
+      ;;
+    --exclude)
+      [[ $# -lt 2 ]] && _die "--exclude requires at least one package name."
+      shift
+      while [[ $# -gt 0 && ! "$1" =~ ^- ]]; do
+        _is_category "$1" && break
+        EXCLUDE_PACKAGES+=("$1")
         shift
-    done
+      done
+      [[ ${#EXCLUDE_PACKAGES[@]} -eq 0 ]] && _die "--exclude requires at least one package name."
+      continue
+      ;;
+    -*)
+      _die "Unknown option: $1  (try --help)"
+      ;;
+    *)
+      _die "Unknown argument: '$1'. Use --category to select categories, or --help for usage."
+      ;;
+    esac
+    shift
+  done
 
-    if [[ "$OPT_ALL" == true ]]; then
-        local cat
-        for cat in core graphics office multimedia internet pim development system games accessibility education utilities; do
-            _select_category "$cat"
-        done
-    fi
+  if [[ "$OPT_ALL" == true ]]; then
+    local cat
+    for cat in core graphics office multimedia internet pim development system games accessibility education utilities; do
+      _select_category "$cat"
+    done
+  fi
 }
 
 # ---------------------------------------------------------------------------
@@ -659,27 +668,29 @@ _parse_args() {
 # ---------------------------------------------------------------------------
 
 _print_summary() {
-    local -a all_pkgs
-    mapfile -t all_pkgs < <(_all_selected_packages)
-    local total=${#all_pkgs[@]}
-    local num_cats=${#SELECTED_CATEGORIES[@]}
-    local cat_label; [[ $num_cats -eq 1 ]] && cat_label="category" || cat_label="categories"
-    local cat_list="${!SELECTED_CATEGORIES[*]}"
+  local -a all_pkgs
+  mapfile -t all_pkgs < <(_all_selected_packages)
+  local total=${#all_pkgs[@]}
+  local num_cats=${#SELECTED_CATEGORIES[@]}
+  local cat_label
+  [[ $num_cats -eq 1 ]] && cat_label="category" || cat_label="categories"
+  local cat_list="${!SELECTED_CATEGORIES[*]}"
 
-    _section "Ready to install"
-    echo "${BOLD}${total}${RESET} packages across ${BOLD}${num_cats}${RESET} ${cat_label}: ${CYAN}${cat_list}${RESET}"
+  _section "Ready to install"
+  echo "${BOLD}${total}${RESET} packages across ${BOLD}${num_cats}${RESET} ${cat_label}: ${CYAN}${cat_list}${RESET}"
 
-    if [[ ${#EXCLUDE_PACKAGES[@]} -gt 0 ]]; then
-        local num_ex=${#EXCLUDE_PACKAGES[@]}
-        local ex_label; [[ $num_ex -eq 1 ]] && ex_label="package" || ex_label="packages"
-        echo "Excluding ${BOLD}${num_ex}${RESET} ${ex_label}: ${GRAY}${EXCLUDE_PACKAGES[*]}${RESET}"
-    fi
+  if [[ ${#EXCLUDE_PACKAGES[@]} -gt 0 ]]; then
+    local num_ex=${#EXCLUDE_PACKAGES[@]}
+    local ex_label
+    [[ $num_ex -eq 1 ]] && ex_label="package" || ex_label="packages"
+    echo "Excluding ${BOLD}${num_ex}${RESET} ${ex_label}: ${GRAY}${EXCLUDE_PACKAGES[*]}${RESET}"
+  fi
 
-    if [[ "$OPT_DRY_RUN" == true ]]; then
-        echo
-        echo "${YELLOW}Dry-run mode — no changes will be made.${RESET}"
-    fi
+  if [[ "$OPT_DRY_RUN" == true ]]; then
     echo
+    echo "${YELLOW}Dry-run mode — no changes will be made.${RESET}"
+  fi
+  echo
 }
 
 # ---------------------------------------------------------------------------
@@ -687,23 +698,23 @@ _print_summary() {
 # ---------------------------------------------------------------------------
 
 _check_requirements() {
-    if ! command -v pacman &>/dev/null; then
-        _die "pacman not found. Only Arch Linux (and derivatives) are supported."
-    fi
+  if ! command -v pacman &>/dev/null; then
+    _die "pacman not found. Only Arch Linux (and derivatives) are supported."
+  fi
 
-    if ! sudo -n true 2>/dev/null && [[ "$OPT_DRY_RUN" == false ]]; then
-        _warn "This script requires sudo privileges. You may be prompted for your password."
-    fi
+  if ! sudo -n true 2>/dev/null && [[ "$OPT_DRY_RUN" == false ]]; then
+    _warn "This script requires sudo privileges. You may be prompted for your password."
+  fi
 }
 
 _detect_extras() {
-    local chassis
-    chassis="$(hostnamectl chassis 2>/dev/null || true)"
+  local chassis
+  chassis="$(hostnamectl chassis 2>/dev/null || true)"
 
-    if [[ "$chassis" =~ ^(convertible|tablet)$ ]]; then
-        _info "Detected $chassis form factor — adding iio-sensor-proxy for auto screen rotation."
-        PACKAGES_CORE+=(iio-sensor-proxy)
-    fi
+  if [[ "$chassis" =~ ^(convertible|tablet)$ ]]; then
+    _info "Detected $chassis form factor — adding iio-sensor-proxy for auto screen rotation."
+    PACKAGES_CORE+=(iio-sensor-proxy)
+  fi
 }
 
 # ---------------------------------------------------------------------------
@@ -711,40 +722,40 @@ _detect_extras() {
 # ---------------------------------------------------------------------------
 
 _run_install() {
-    if [[ "$OPT_DRY_RUN" == false ]]; then
-        _section "Refreshing package databases"
-        _spinner_start "  Syncing mirrors"
-        sudo pacman -Sy --noconfirm &>/dev/null
-        _spinner_stop
-        _success "Done."
+  if [[ "$OPT_DRY_RUN" == false ]]; then
+    _section "Refreshing package databases"
+    _spinner_start "  Syncing mirrors"
+    sudo pacman -Sy --noconfirm &>/dev/null
+    _spinner_stop
+    _success "Done."
+  fi
+
+  local cat varname pkgvar sys_units_var usr_units_var
+  local -a sys_units usr_units
+  for cat in "${!SELECTED_CATEGORIES[@]}"; do
+    _section "Installing category: ${CYAN}${cat}${RESET}"
+    varname="PACKAGES_${cat^^}"
+    varname="${varname//-/_}"
+    pkgvar="${varname}[@]"
+    _install_packages "${!pkgvar}"
+    _success "Category '${cat}' installed."
+
+    if [[ "$OPT_NO_UNITS" == false ]]; then
+      sys_units_var="SYSTEM_UNITS_${cat^^}[@]"
+      usr_units_var="USER_UNITS_${cat^^}[@]"
+      sys_units=(${!sys_units_var+"${!sys_units_var}"})
+      usr_units=(${!usr_units_var+"${!usr_units_var}"})
+      [[ ${#sys_units[@]} -gt 0 ]] && _enable_units system "${sys_units[@]}"
+      [[ ${#usr_units[@]} -gt 0 ]] && _enable_units user "${usr_units[@]}"
     fi
+  done
 
-    local cat varname pkgvar sys_units_var usr_units_var
-    local -a sys_units usr_units
-    for cat in "${!SELECTED_CATEGORIES[@]}"; do
-        _section "Installing category: ${CYAN}${cat}${RESET}"
-        varname="PACKAGES_${cat^^}"
-        varname="${varname//-/_}"
-        pkgvar="${varname}[@]"
-        _install_packages "${!pkgvar}"
-        _success "Category '${cat}' installed."
+  if [[ "$OPT_NO_UNITS" == true ]]; then
+    _warn "Skipping systemd unit activation (--no-units was set)."
+  fi
 
-        if [[ "$OPT_NO_UNITS" == false ]]; then
-            sys_units_var="SYSTEM_UNITS_${cat^^}[@]"
-            usr_units_var="USER_UNITS_${cat^^}[@]"
-            sys_units=( ${!sys_units_var+"${!sys_units_var}"} )
-            usr_units=( ${!usr_units_var+"${!usr_units_var}"} )
-            [[ ${#sys_units[@]} -gt 0 ]] && _enable_units system "${sys_units[@]}"
-            [[ ${#usr_units[@]} -gt 0 ]] && _enable_units user   "${usr_units[@]}"
-        fi
-    done
-
-    if [[ "$OPT_NO_UNITS" == true ]]; then
-        _warn "Skipping systemd unit activation (--no-units was set)."
-    fi
-
-    _success "All done! Enjoy your KDE setup."
-    echo
+  _success "All done! Enjoy your KDE setup."
+  echo
 }
 
 # ---------------------------------------------------------------------------
@@ -752,39 +763,42 @@ _run_install() {
 # ---------------------------------------------------------------------------
 
 main() {
-    # No arguments at all → help
-    [[ $# -eq 0 ]] && { _show_help; exit 0; }
+  # No arguments at all → help
+  [[ $# -eq 0 ]] && {
+    _show_help
+    exit 0
+  }
 
-    _parse_args "$@"
+  _parse_args "$@"
 
-    # --category is mandatory (--all counts as providing categories)
-    if [[ $NUM_CATEGORIES -eq 0 ]]; then
-        _die "--category is required. Run '${0##*/} --list' for available categories."
+  # --category is mandatory (--all counts as providing categories)
+  if [[ $NUM_CATEGORIES -eq 0 ]]; then
+    _die "--category is required. Run '${0##*/} --list' for available categories."
+  fi
+
+  # --show-packages: display only, silently ignore --exclude / -y / --no-units
+  if [[ "$OPT_SHOW_PACKAGES" == true ]]; then
+    _show_packages
+    exit 0
+  fi
+
+  _check_requirements
+  _detect_extras
+  _validate_excludes
+  _print_summary
+
+  if [[ "$OPT_YES" == false ]]; then
+    if ! _ask_yes_no N "Proceed with installation?"; then
+      echo "Aborted."
+      exit 0
     fi
+  fi
 
-    # --show-packages: display only, silently ignore --exclude / -y / --no-units
-    if [[ "$OPT_SHOW_PACKAGES" == true ]]; then
-        _show_packages
-        exit 0
-    fi
+  if [[ "$OPT_DRY_RUN" == false ]]; then
+    sudo -v || _die "sudo authentication failed."
+  fi
 
-    _check_requirements
-    _detect_extras
-    _validate_excludes
-    _print_summary
-
-    if [[ "$OPT_YES" == false ]]; then
-        if ! _ask_yes_no N "Proceed with installation?"; then
-            echo "Aborted."
-            exit 0
-        fi
-    fi
-
-    if [[ "$OPT_DRY_RUN" == false ]]; then
-        sudo -v || _die "sudo authentication failed."
-    fi
-
-    _run_install
+  _run_install
 }
 
 main "$@"
