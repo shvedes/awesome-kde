@@ -30,6 +30,7 @@ PACKAGES_CORE=(
   kdegraphics-mobipocket kimageformats
   colord-kde ffmpegthumbs
   kdegraphics-thumbnailers
+  kdesdk-thumbnailers
   imath jxrlib karchive
   libavif libheif libjxl
   libraw openjpeg2 icoutils
