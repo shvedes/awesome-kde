@@ -35,7 +35,7 @@ PACKAGES_CORE=(
   libraw openjpeg2 icoutils
   kdenetwork-filesharing
   purpose fwupd plocate
-  yt-dlp mediainfo libvncserver
+  mediainfo libvncserver
   freerdp libssh arj lrzip
   lzop 7zip unarchiver unrar
   zip cpio unarj unace
@@ -50,11 +50,8 @@ PACKAGES_CORE=(
 
   # applications
   konsole dolphin
-  ark khelpcenter
   kate kcalc kfind
-  kolourpaint
-  gwenview haruna
-  elisa kclock
+  gwenview ark
 )
 
 PACKAGES_GRAPHICS=(
