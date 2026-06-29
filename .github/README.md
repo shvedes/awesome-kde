@@ -389,6 +389,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - [chat-qt](https://github.com/DenysMb/ChatQT-Plasmoid) <sup>`no packages avaiable`</sup> - chat with ollama models directly from taskbar
 
 - [apdatifier](https://github.com/exequtic/apdatifier) <sup>`no packages avaiable`</sup> - applet for managing Arch Linux updates (including AUR)
+- [kdoit](https://github.com/lubdhak7414/KDoit) <sup>`no packages avaiable`</sup> - lightweight to-do widget for KDE Plasma 6 with nested sublists, priorities, due dates, and UUID-based sync
     - *Depends on*: `pacman-contrib` `curl` `jq` `unzip` `tar` `fzf`
 
 #### Misc
