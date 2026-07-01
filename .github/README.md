@@ -16,7 +16,8 @@ curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' |
 
 Running this command will give you a list of all KDE Plasma package groups you want to install.
 
-> **Legend:** `[AUR]` — AUR-only package · `[WIP]` — in development · `[N/A]` — no packages available · `[soon]` — not yet released · `[group]` — package group · `[Mobile]` — Plasma Mobile
+> [!NOTE]
+> **Legend:** `[AUR]` - AUR-only package · `[WIP]` - in development · `[N/A]` - no packages available · `[soon]` - not yet released · `[group]` - package group · `[Mobile]` - Plasma Mobile
 
 #### Contributing
 
@@ -323,7 +324,8 @@ If you find this repo useful, you might want to see the work of these people as 
 - `kdepim-addons` - additional plugins and extensions for KDE PIM apps
 - `kunifiedpush` - push notifications
 
-> **Note:** If `power-profiles-daemon` doesn't work, try `tuned{-ppd}` with `tuned{-ppd}.service` instead.
+> [!NOTE]
+> If `power-profiles-daemon` doesn't work, try `tuned{-ppd}` with `tuned{-ppd}.service` instead.
 
 ### Third Party
 
