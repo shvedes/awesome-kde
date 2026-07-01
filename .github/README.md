@@ -391,6 +391,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - [apdatifier](https://github.com/exequtic/apdatifier) <sup>`no packages avaiable`</sup> - applet for managing Arch Linux updates (including AUR)
 - [kdoit](https://github.com/lubdhak7414/KDoit) <sup>`no packages avaiable`</sup> - lightweight to-do widget for KDE Plasma 6 with nested sublists, priorities, due dates, and UUID-based sync
     - *Depends on*: `pacman-contrib` `curl` `jq` `unzip` `tar` `fzf`
+- [kstats](https://github.com/oowl/kstats) <sup>`no packages avaiable`</sup> - a system monitor plasmoid
 
 #### Misc
 
