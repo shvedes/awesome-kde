@@ -59,6 +59,7 @@ PACKAGES_GRAPHICS=(
   kdenlive
   kamera kcolorchooser
   kgraphviewer kimagemapeditor
+  kruler
 )
 
 PACKAGES_OFFICE=(
@@ -155,6 +156,7 @@ PACKAGES_GAMES=(
   ksquares ksudoku ktuberling
   kubrick lskat palapeli
   picmi skladnik
+  kretro rolisteam
 )
 
 PACKAGES_ACCESSIBILITY=(
@@ -164,18 +166,23 @@ PACKAGES_ACCESSIBILITY=(
 
 PACKAGES_EDUCATION=(
   artikulate blinken cantor
-  kalgebra kalzium kanagram
-  kbruch kgeography khangman
-  kig kiten klettres
-  kmplot ktouch kturtle
-  kwordquiz marble minuet
-  parley rocs step
+  gcompris-qt kalgebra kalzium
+  kanagram kbruch kgeography
+  khangman kig kiten
+  klettres kmplot kstars
+  ktouch kturtle kwordquiz
+  labplot marble minuet
+  parley rkward rocs
+  step kst kbibtex
+  ktechlab
 )
 
 PACKAGES_UTILITIES=(
   kontrast francis
   qrca kcharselect
   keysmith sweeper
+  kalk kalm
+  kdebugsettings ktimer
 )
 
 # systemd units — parallel to PACKAGES_* arrays; empty arrays are skipped automatically.

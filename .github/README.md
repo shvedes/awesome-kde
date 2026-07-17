@@ -90,6 +90,11 @@ If you find this repo useful, you might want to see the work of these people as 
 - `kontrast` [🔗](https://apps.kde.org/kontrast/) - color contrast checker
 - `kdialog` [🔗](https://develop.kde.org/docs/administration/kdialog/) - YAD & Zenity alternative
 - `kteatime` [🔗](https://apps.kde.org/kteatime/) - timer for steeping tea 🙄
+- `kalk` [🔗](https://apps.kde.org/kalk/) - convergent calculator for Plasma
+- `kalm` [🔗](https://apps.kde.org/kalm/) - teaches you different breathing techniques
+- `kdebugsettings` [🔗](https://apps.kde.org/kdebugsettings/) - Qt debug settings editor
+- `ktimer` [🔗](https://apps.kde.org/ktimer/) - countdown launcher
+- `kruler` [🔗](https://apps.kde.org/kruler/) - screen ruler
 
 #### Development & KDE SDK
 
@@ -141,6 +146,9 @@ If you find this repo useful, you might want to see the work of these people as 
 - `showfoto` `[N/A]` [🔗](https://apps.kde.org/showfoto/) - photo viewer & editor
 - `kimagemapeditor` `[Mobile]` [🔗](https://apps.kde.org/kimagemapeditor/) - editor of image maps
 - `kgraphviewer` `[Mobile]` [🔗](https://apps.kde.org/kgraphviewer/) - Graphviz DOT graph file viewer
+- `kmix` [🔗](https://apps.kde.org/kmix/) - volume mixer
+- `audiocd-kio` - KIO slave for accessing audio CDs
+- `telly-skout` [🔗](https://apps.kde.org/telly-skout/) - TV guide / EPG viewer
 
 #### Office
 
@@ -163,6 +171,10 @@ If you find this repo useful, you might want to see the work of these people as 
 - `tokodon` [🔗](https://apps.kde.org/tokodon/) - [Mastodon](https://github.com/mastodon/mastodon) client
 - `kasts` [🔗](https://apps.kde.org/kasts/) - podcasts client
 - `ruqola` `[AUR]` [🔗](https://apps.kde.org/ruqola/) - [rocket.chat](https://www.rocket.chat/) client
+- `alligator` [🔗](https://apps.kde.org/alligator/) - Kirigami-based RSS / feed reader
+- `angelfish` `[Mobile]` [🔗](https://apps.kde.org/angelfish/) - web browser for Plasma Mobile
+- `falkon` [🔗](https://apps.kde.org/falkon/) - QtWebEngine browser
+- `konqueror` [🔗](https://apps.kde.org/konqueror/) - KDE file manager & web browser
 
 #### KDE PIM
 
@@ -186,6 +198,89 @@ If you find this repo useful, you might want to see the work of these people as 
 - `calindori` `[Mobile]` [🔗](https://apps.kde.org/calindori/) - calendar app designed for KDE Plasma & Plasma Mobile
 - `publicalerts` `[soon]` [🔗](https://apps.kde.org/publicalerts/) - emergency & weather alerts
 - `komodo` [🔗](https://apps.kde.org/komodo/) - todo manager
+
+#### Accessibility
+
+- `accessibility-inspector` [🔗](https://apps.kde.org/accessibilityinspector/) - inspect your application accessibility tree
+- `kmousetool` [🔗](https://apps.kde.org/kmousetool/) - automatic mouse clicker
+- `kmouth` [🔗](https://apps.kde.org/kmouth/) - speech synthesizer frontend
+
+#### Games
+
+- `bomber` [🔗](https://apps.kde.org/bomber/) - arcade bombing game
+- `bovo` [🔗](https://apps.kde.org/bovo/) - five-in-a-row board game
+- `granatier` [🔗](https://apps.kde.org/granatier/) - Bomberman clone
+- `kajongg` [🔗](https://apps.kde.org/kajongg/) - Mahjong tile game
+- `kapman` [🔗](https://apps.kde.org/kapman/) - Pac-Man clone
+- `katomic` [🔗](https://apps.kde.org/katomic/) - Sokoban-like logic game
+- `kblackbox` [🔗](https://apps.kde.org/kblackbox/) - hide and seek game on a grid
+- `kblocks` [🔗](https://apps.kde.org/kblocks/) - classic falling blocks game
+- `kbounce` [🔗](https://apps.kde.org/kbounce/) - ball bouncing arcade game
+- `kbreakout` [🔗](https://apps.kde.org/kbreakout/) - Breakout-like game
+- `kdiamond` [🔗](https://apps.kde.org/kdiamond/) - three-in-a-row puzzle game
+- `kfourinline` [🔗](https://apps.kde.org/kfourinline/) - four-in-a-row board game
+- `kgoldrunner` [🔗](https://apps.kde.org/kgoldrunner/) - hunt gold, dodge enemies, solve puzzles
+- `kigo` [🔗](https://apps.kde.org/kigo/) - Go board game
+- `killbots` [🔗](https://apps.kde.org/killbots/) - evade killer robots
+- `kiriki` [🔗](https://apps.kde.org/kiriki/) - Yahtzee-like dice game
+- `kjumpingcube` [🔗](https://apps.kde.org/kjumpingcube/) - territory capture game
+- `klickety` [🔗](https://apps.kde.org/klickety/) - Clickomania adaptation
+- `klines` [🔗](https://apps.kde.org/klines/) - tactical puzzle game
+- `kmahjongg` [🔗](https://apps.kde.org/kmahjongg/) - Mahjongg solitaire
+- `kmines` [🔗](https://apps.kde.org/kmines/) - Minesweeper-like game
+- `knavalbattle` [🔗](https://apps.kde.org/knavalbattle/) - ship sinking game
+- `knetwalk` [🔗](https://apps.kde.org/knetwalk/) - network construction puzzle
+- `knights` [🔗](https://apps.kde.org/knights/) - chess game
+- `kolf` [🔗](https://apps.kde.org/kolf/) - miniature golf game
+- `kollision` [🔗](https://apps.kde.org/kollision/) - ball dodging game
+- `konquest` [🔗](https://apps.kde.org/konquest/) - galactic strategy game
+- `kpat` [🔗](https://apps.kde.org/kpat/) - solitaire card games collection
+- `kreversi` [🔗](https://apps.kde.org/kreversi/) - reversi board game
+- `kshisen` [🔗](https://apps.kde.org/kshisen/) - Shisen-Sho Mahjongg-like tile game
+- `ksirk` [🔗](https://apps.kde.org/ksirk/) - world domination strategy game
+- `ksnakeduel` [🔗](https://apps.kde.org/ksnakeduel/) - snake duel race
+- `kspaceduel` [🔗](https://apps.kde.org/kspaceduel/) - space arcade duel
+- `ksquares` [🔗](https://apps.kde.org/ksquares/) - Dots and Boxes game
+- `ksudoku` [🔗](https://apps.kde.org/ksudoku/) - Sudoku puzzle game
+- `ktuberling` [🔗](https://apps.kde.org/ktuberling/) - picture game for children
+- `kubrick` [🔗](https://apps.kde.org/kubrick/) - Rubik's Cube 3-D game
+- `lskat` [🔗](https://apps.kde.org/lskat/) - classic German card game
+- `palapeli` [🔗](https://apps.kde.org/palapeli/) - jigsaw puzzle game
+- `picmi` [🔗](https://apps.kde.org/picmi/) - logic puzzle game
+- `skladnik` [🔗](https://apps.kde.org/skladnik/) - Sokoban game
+- `kretro` `[AUR]` [🔗](https://apps.kde.org/kretro/) - Libretro emulation frontend for Plasma
+- `rolisteam` `[AUR]` [🔗](https://rolisteam.org/) - RPG client companion
+
+#### Education
+
+- `artikulate` [🔗](https://apps.kde.org/artikulate/) - pronunciation trainer
+- `blinken` [🔗](https://apps.kde.org/blinken/) - memory enhancement game
+- `cantor` [🔗](https://apps.kde.org/cantor/) - frontend to mathematical software
+- `gcompris-qt` [🔗](https://apps.kde.org/gcompris/) - educational game suite for children
+- `kalgebra` [🔗](https://apps.kde.org/kalgebra/) - graph calculator
+- `kalzium` [🔗](https://apps.kde.org/kalzium/) - periodic table of elements
+- `kanagram` [🔗](https://apps.kde.org/kanagram/) - letter order game
+- `kbruch` [🔗](https://apps.kde.org/kbruch/) - exercise fractions
+- `kgeography` [🔗](https://apps.kde.org/kgeography/) - geography trainer
+- `khangman` [🔗](https://apps.kde.org/khangman/) - hangman game
+- `kig` [🔗](https://apps.kde.org/kig/) - interactive geometry
+- `kiten` [🔗](https://apps.kde.org/kiten/) - Japanese reference / study tool
+- `klettres` [🔗](https://apps.kde.org/klettres/) - learn the alphabet
+- `kmplot` [🔗](https://apps.kde.org/kmplot/) - mathematical function plotter
+- `kstars` [🔗](https://apps.kde.org/kstars/) - desktop planetarium
+- `ktouch` [🔗](https://apps.kde.org/ktouch/) - touch typing tutor
+- `kturtle` [🔗](https://apps.kde.org/kturtle/) - educational programming environment
+- `kwordquiz` [🔗](https://apps.kde.org/kwordquiz/) - flash card trainer
+- `labplot` [🔗](https://apps.kde.org/labplot/) - data visualization and analysis
+- `marble` [🔗](https://apps.kde.org/marble/) - virtual globe
+- `minuet` [🔗](https://apps.kde.org/minuet/) - music education software
+- `parley` [🔗](https://apps.kde.org/parley/) - vocabulary trainer
+- `rocs` [🔗](https://apps.kde.org/rocs/) - graph theory
+- `rkward` [🔗](https://apps.kde.org/rkward/) - statistics GUI
+- `step` [🔗](https://apps.kde.org/step/) - interactive physics simulator
+- `kst` [🔗](https://apps.kde.org/kst/) - scientific data viewer
+- `kbibtex` [🔗](https://apps.kde.org/kbibtex/) - BibTeX editor
+- `ktechlab` `[AUR]` [🔗](https://apps.kde.org/ktechlab/) - IDE for microcontrollers and electronics
 
 ### Core Components
 
