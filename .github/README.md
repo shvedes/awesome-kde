@@ -149,6 +149,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - `kmix` [🔗](https://apps.kde.org/kmix/) - volume mixer
 - `audiocd-kio` - KIO slave for accessing audio CDs
 - `telly-skout` [🔗](https://apps.kde.org/telly-skout/) - TV guide / EPG viewer
+- `drawy` [🔗](https://apps.kde.org/es/drawy/) - infinite whiteboard drawing app
 
 #### Office
 
@@ -437,7 +438,6 @@ If you find this repo useful, you might want to see the work of these people as 
 - `qpwgraph` [🔗](https://gitlab.freedesktop.org/rncbc/qpwgraph) - PipeWire Graph Qt GUI Interface
 - `jamesdsp` `[AUR]` [🔗](https://github.com/Audio4Linux/JDSP4Linux) - audio post-processing tool, like EasyEffects
 - `qbittorrent` [🔗](https://github.com/qbittorrent/qBittorrent) - you know what is this!
-- `drawy` [🔗](https://apps.kde.org/es/drawy/) - infinite whiteboard drawing app
 
 #### Compositor Scripts / Effects / Animations
 
