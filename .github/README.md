@@ -427,6 +427,7 @@ If you find this repo useful, you might want to see the work of these people as 
 
 #### GUI Applications
 
+- `kontainer` `[AUR]` [🔗](https://github.com/DenysMb/Kontainer) - [Distrobox](https://distrobox.it/), [Podman](https://podman.io/) and [Docker](https://www.docker.com/) - a native KDE app for managing containers
 - `koi` `[AUR]` [🔗](https://github.com/baduhai/Koi) - auto light / dark mode switcher
 - `yin-yang` `[AUR]` [🔗](https://github.com/oskarsh/Yin-Yang) - another one auto light / dark mode switcher
 - `media-downloader` `[AUR]` [🔗](https://github.com/mhogomchungu/media-downloader) - a feature-rich frontend for yt-dlp
