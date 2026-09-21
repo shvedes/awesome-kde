@@ -425,6 +425,10 @@ If you find this repo useful, you might want to see the work of these people as 
 
 ### Third Party
 
+#### Plugins
+
+- `okular-mupdf-ng` `[N/A]` [🔗](https://github.com/l4rzy/okular-mupdf-ng) - [MuPDF](https://mupdf.com/) backend for Okular; a *faster* replacement for builtin [Poppler](https://poppler.freedesktop.org/) backend
+
 #### GUI Applications
 
 - `kontainer` `[AUR]` [🔗](https://github.com/DenysMb/Kontainer) - [Distrobox](https://distrobox.it/), [Podman](https://podman.io/) and [Docker](https://www.docker.com/) - a native KDE app for managing containers
