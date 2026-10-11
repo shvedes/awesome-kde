@@ -484,6 +484,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - `kdoit` `[N/A]` [🔗](https://github.com/lubdhak7414/KDoit) - to-do widget with nested sublists, priorities, due dates, and UUID-based sync
     - *Depends on*: `pacman-contrib` `curl` `jq` `unzip` `tar` `fzf`
 - `kstats` `[N/A]` [🔗](https://github.com/oowl/kstats) - a system monitor plasmoid
+- `plasma6-applets-appgrid` `[AUR]` [🔗](https://github.com/xarbit/plasma6-applet-appgrid) - a modern alternative to Kickoff and Kicker app launchers
 
 #### Misc
 
