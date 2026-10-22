@@ -461,6 +461,7 @@ If you find this repo useful, you might want to see the work of these people as 
 - `darkly` `[AUR]` [🔗](https://github.com/Bali10050/Darkly) - a modern style for qt applications 
 - `arc-kde` `[AUR]` [🔗](https://github.com/PapirusDevelopmentTeam/arc-kde) - port of Arc theme for KDE
 - `utterly-nord-plasma` `[AUR]` [🔗](https://github.com/HimDek/Utterly-Nord-Plasma) - a modern and sleek Nord theme for Plasma
+- `fastfetch-kde-splash` `[N/A]` [🔗](https://github.com/DeadIndian/fastfetch-kde-splash) - matrix-style boot splash that renders your `fastfetch` info with a glitch character-reveal, in full ANSI color
 
 #### Applets / Widgets / Plasmoids
 
