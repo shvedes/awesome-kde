@@ -494,4 +494,5 @@ If you find this repo useful, you might want to see the work of these people as 
 - `kando-bin` `[AUR]` [🔗](https://github.com/kando-menu/kando) - a nice looking cross-platform pie menu
 - `krunner-translator` `[N/A]` [🔗](https://github.com/rizutazu/krunner-translator) — Google Translate plugin for KRunner
 - `kde-thumbnailer-apk` `[AUR]` [🔗](https://github.com/z3ntu/kde-thumbnailer-apk) — you got it right; Android's `.apk` thumbnails
+- `vibe-typer` `[N/A]` [🔗](https://vibetyper.com/voice-typing-linux) - AI voice typing: hold a hotkey, speak, and clean text is typed into any app. Native Wayland and X11, AppImage, free plan
 
