@@ -491,6 +491,7 @@ If you find this repo useful, you might want to see the work of these people as 
 
 - `mpris-discord-rpc-bin` `[AUR]` [🔗](https://github.com/patryk-ku/mpris-discord-rpc) - self-explanatory. Not a KDE component nor made for KDE, but can integrate well with Haruna, Dragon, mpv and more, providing functional Discord RPC interface
 - `konsave` `[AUR]` [🔗](https://github.com/Prayag2/konsave) - a backup tool designed for KDE Plasma
+- `dotplasma` [🔗](https://github.com/A-Murchison/dotplasma) - CLI for saving, comparing, importing and restoring KDE Plasma configurations
 - `kando-bin` `[AUR]` [🔗](https://github.com/kando-menu/kando) - a nice looking cross-platform pie menu
 - `krunner-translator` `[N/A]` [🔗](https://github.com/rizutazu/krunner-translator) — Google Translate plugin for KRunner
 - `kde-thumbnailer-apk` `[AUR]` [🔗](https://github.com/z3ntu/kde-thumbnailer-apk) — you got it right; Android's `.apk` thumbnails
