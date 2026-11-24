@@ -17,7 +17,14 @@ curl -s https://archlinux.org/groups/ | grep -oP 'kde-[^/"]+|kf[5,6]|kdevelop' |
 Running this command will give you a list of all KDE Plasma package groups you want to install.
 
 > [!NOTE]
-> **Legend:** `[AUR]` - AUR-only package · `[WIP]` - in development · `[N/A]` - no packages available · `[soon]` - not yet released · `[group]` - package group · `[Mobile]` - Plasma Mobile
+> **Legend:** 
+> `[AUR]` - AUR-only package
+> `[WIP]` - in development
+> `[N/A]` - no packages available
+> `[soon]` - not yet released
+> `[group]` - package group
+> `[Mobile]` - Plasma Mobile
+> `[🤖]` - fully vibecoded and/or heavily AI-assisted project
 
 #### Contributing
 
@@ -496,5 +503,5 @@ If you find this repo useful, you might want to see the work of these people as 
 - `krunner-translator` `[N/A]` [🔗](https://github.com/rizutazu/krunner-translator) — Google Translate plugin for KRunner
 - `kde-thumbnailer-apk` `[AUR]` [🔗](https://github.com/z3ntu/kde-thumbnailer-apk) — you got it right; Android's `.apk` thumbnails
 - `vibe-typer` `[N/A]` [🔗](https://vibetyper.com/voice-typing-linux) - AI voice typing: hold a hotkey, speak, and clean text is typed into any app. Native Wayland and X11, AppImage, free plan
-- `tomoyo-launcher` `[N/A]` [🔗](https://github.com/q871958549/Tomoyo) - ultra-low-memory native Rust desktop launcher for KDE Plasma Wayland/X11 (KWin & KGlobalAccel integration) with file search, clipboard manager, offline OCR, and WASM/STDIO plugins
+- `tomoyo-launcher` `[N/A]` `[🤖]` [🔗](https://github.com/q871958549/Tomoyo) - ultra-low-memory native Rust desktop launcher for KDE Plasma Wayland/X11 (KWin & KGlobalAccel integration) with file search, clipboard manager, offline OCR, and WASM/STDIO plugins
 
