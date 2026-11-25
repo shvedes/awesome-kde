@@ -493,6 +493,7 @@ If you find this repo useful, you might want to see the work of these people as 
     - *Depends on*: `pacman-contrib` `curl` `jq` `unzip` `tar` `fzf`
 - `kstats` `[N/A]` [🔗](https://github.com/oowl/kstats) - a system monitor plasmoid
 - `plasma6-applets-appgrid` `[AUR]` [🔗](https://github.com/xarbit/plasma6-applet-appgrid) - a modern alternative to Kickoff and Kicker app launchers
+- `kiri` `[N/A]` - [🔗](https://github.com/SeniorMatt/kiri) - Scrollable tiling KWin script in the style of niri
 
 #### Misc
 
